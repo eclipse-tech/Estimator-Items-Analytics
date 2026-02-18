@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estimator Item Search</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a2332;
+      --surface-hover: #243044;
+      --border: #2d3a4d;
+      --text: #e6edf3;
+      --text-muted: #8b9cb3;
+      --accent: #3b82f6;
+      --accent-hover: #2563eb;
+      --voice: #22c55e;
+      --voice-hover: #16a34a;
+      --radius: 12px;
+      --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background-image:
+        radial-gradient(ellipse 80% 50% at 50% -20%, rgba(59, 130, 246, 0.15), transparent),
+        radial-gradient(ellipse 60% 40% at 100% 100%, rgba(34, 197, 94, 0.08), transparent);
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 32px 40px;
+      width: 100%;
+      max-width: 480px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+
+    .subtitle {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-top: 6px;
+      font-weight: 500;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 10px;
+      align-items: stretch;
+    }
+
+    #text {
+      flex: 1;
+      min-width: 0;
+      padding: 14px 18px;
+      font-size: 1rem;
+      font-family: inherit;
+      color: var(--text);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    #text::placeholder {
+      color: var(--text-muted);
+    }
+
+    #text:hover {
+      border-color: var(--surface-hover);
+    }
+
+    #text:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    }
+
+    .btn {
+      padding: 14px 20px;
+      font-size: 1rem;
+      font-weight: 600;
+      font-family: inherit;
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+
+    .btn:active {
+      transform: scale(0.98);
+    }
+
+    .btn-search {
+      background: var(--accent);
+      color: white;
+    }
+
+    .btn-search:hover {
+      background: var(--accent-hover);
+    }
+
+    .btn-voice {
+      background: var(--voice);
+      color: white;
+      font-size: 1.25rem;
+      padding: 14px 18px;
+    }
+
+    .btn-voice:hover {
+      background: var(--voice-hover);
+    }
+
+    .btn-voice:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .hint {
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      margin-top: 14px;
+      text-align: center;
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 18px 0;
+      opacity: 0.9;
+    }
+
+    .ingest-row {
+      display: flex;
+      gap: 10px;
+      align-items: stretch;
+    }
+
+    .select {
+      width: 120px;
+      padding: 14px 14px;
+      font-size: 0.95rem;
+      font-family: inherit;
+      font-weight: 600;
+      color: var(--text);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .select:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    }
+
+    .btn-ingest {
+      background: #a855f7;
+      color: white;
+      flex: 1;
+    }
+
+    .btn-ingest:hover {
+      background: #9333ea;
+    }
+
+    .status {
+      margin-top: 12px;
+      padding: 12px 14px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: rgba(15, 20, 25, 0.6);
+      font-size: 0.875rem;
+      color: var(--text);
+      line-height: 1.35;
+      white-space: pre-wrap;
+      word-break: break-word;
+      display: none;
+    }
+
+    .status[data-kind="ok"] {
+      border-color: rgba(34, 197, 94, 0.5);
+    }
+    .status[data-kind="error"] {
+      border-color: rgba(239, 68, 68, 0.6);
+    }
+    .status[data-kind="info"] {
+      border-color: rgba(59, 130, 246, 0.5);
+    }
+
+    .results-section {
+      margin-top: 24px;
+      width: 100%;
+      max-width: 900px;
+    }
+    .results-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .item-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+    }
+    .item-card:hover {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+    }
+    .item-card-image-wrap {
+      aspect-ratio: 1;
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .item-card-image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .item-card-body {
+      padding: 12px 14px;
+    }
+    .item-card-name {
+      font-weight: 600;
+      font-size: 0.9375rem;
+      color: var(--text);
+    }
+    .item-card-id {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    .pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .pagination button {
+      padding: 8px 16px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      font-family: inherit;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      cursor: pointer;
+    }
+    .pagination button:hover:not(:disabled) {
+      background: var(--surface-hover);
+      border-color: var(--accent);
+    }
+    .pagination button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    .pagination span {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <header>
+      <h1>Estimator Item Search</h1>
+      <p class="subtitle">Search by text or use voice</p>
+    </header>
+    <div class="search-row">
+      <input id="text" type="text" placeholder="Enter search or speak..." autocomplete="off" />
+      <button class="btn btn-search" onclick="send()">Search</button>
+      <button class="btn btn-voice" onclick="voice()" id="voiceBtn" title="Voice search">🎤</button>
+    </div>
+    <p class="hint">Type your query or click the microphone to search by voice. Voice uses your browser’s online speech service and needs internet.</p>
+
+    <div class="divider"></div>
+
+    <div class="ingest-row">
+      <select id="env" class="select" title="Environment">
+        <option value="local">local</option>
+        <option value="dev" selected>dev</option>
+        <option value="uat">uat</option>
+        <option value="prod">prod</option>
+      </select>
+      <button class="btn btn-ingest" onclick="ingest()" id="ingestBtn">Ingest to Qdrant</button>
+    </div>
+    <div id="status" class="status" aria-live="polite"></div>
+  </div>
+  <div id="resultsSection" class="results-section" style="display: none;">
+    <p id="resultsTitle" class="results-title"></p>
+    <div id="resultsGrid" class="results-grid"></div>
+    <div id="pagination" class="pagination" style="display: none;"></div>
+  </div>
+  <!-- Modal for Vishanti aggregated view -->
+  <div id="detailsModal" style="display:none; position:fixed; inset:0; background:rgba(15,20,25,0.8); backdrop-filter:blur(6px); z-index:50; align-items:center; justify-content:center;">
+    <div style="background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:var(--shadow); max-width:960px; width:100%; max-height:80vh; display:flex; flex-direction:column; overflow:hidden;">
+      <div style="display:flex; align-items:center; justify-content:space-between; padding:14px 18px; border-bottom:1px solid var(--border);">
+        <div>
+          <div id="detailsTitle" style="font-weight:600; font-size:1rem;"></div>
+          <div id="detailsSubtitle" style="font-size:0.8rem; color:var(--text-muted); margin-top:2px;"></div>
+        </div>
+        <button type="button" onclick="closeDetailsModal()" style="border:none; background:transparent; color:var(--text-muted); font-size:1.2rem; cursor:pointer; padding:4px 8px;">✕</button>
+      </div>
+      <div style="display:flex; gap:16px; padding:16px; overflow:hidden;">
+        <div style="flex:0 0 260px; display:flex; flex-direction:column; gap:12px;">
+          <div style="background:var(--bg); border-radius:var(--radius); overflow:hidden; min-height:220px; display:flex; align-items:center; justify-content:center;">
+            <img id="detailsImage" src="" alt="" style="width:100%; height:100%; object-fit:contain; display:none;">
+            <div id="detailsImagePlaceholder" style="font-size:0.8rem; color:var(--text-muted);">No image available</div>
+          </div>
+        </div>
+        <div style="flex:1; display:flex; flex-direction:column; overflow:hidden;">
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+            <label for="cityFilter" style="font-size:0.85rem; color:var(--text-muted);">Filter by city:</label>
+            <select id="cityFilter" onchange="applyCityFilter()" style="min-width:180px; padding:8px 10px; font-size:0.85rem; border-radius:var(--radius); border:1px solid var(--border); background:var(--bg); color:var(--text);">
+              <option value="">All cities</option>
+            </select>
+          </div>
+          <div style="flex:1; overflow:auto; border-radius:var(--radius); border:1px solid var(--border);">
+            <table style="width:100%; border-collapse:collapse; font-size:0.85rem;">
+              <thead style="position:sticky; top:0; background:var(--surface-hover);">
+                <tr>
+                  <th style="text-align:left; padding:8px 10px; border-bottom:1px solid var(--border);">City</th>
+                  <th style="text-align:left; padding:8px 10px; border-bottom:1px solid var(--border);">Price Type</th>
+                  <th style="text-align:right; padding:8px 10px; border-bottom:1px solid var(--border);">Min Price</th>
+                  <th style="text-align:right; padding:8px 10px; border-bottom:1px solid var(--border);">Max Price</th>
+                  <th style="text-align:right; padding:8px 10px; border-bottom:1px solid var(--border);">Avg Price</th>
+                </tr>
+              </thead>
+              <tbody id="cityStatsBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const API_BASE = "http://localhost:8090/v1/api/analytics";
+
+    // Load app config (including environment) from backend on init
+    (async function initConfig() {
+      try {
+        const res = await fetch(`${API_BASE}/config`);
+        if (res.ok) {
+          const cfg = await res.json();
+          const envEl = document.getElementById("env");
+          if (envEl && cfg.environment) {
+            envEl.value = cfg.environment;
+          }
+        }
+      } catch (e) {
+        console.warn("Could not load /config:", e);
+      }
+    })();
+
+    function setStatus(kind, message, payload) {
+      const el = document.getElementById("status");
+      el.dataset.kind = kind;
+      el.style.display = "block";
+      // Always show a plain-text message. If payload is provided, append a concise summary line.
+      if (payload !== undefined && payload !== null) {
+        let summary = "";
+        if (typeof payload === "object") {
+          // Special-case ingest result shape: { inserted, collection }
+          if ("inserted" in payload && "collection" in payload) {
+            summary = `Ingest complete — ${payload.inserted} items inserted into ${payload.collection}.`;
+          } else {
+            summary = JSON.stringify(payload, null, 2);
+          }
+        } else {
+          summary = String(payload);
+        }
+        el.textContent = `${message}${summary ? "\n\n" + summary : ""}`;
+      } else {
+        el.textContent = message;
+      }
+    }
+
+    const PAGE_SIZE = 8;
+    let searchResults = [];
+    let currentPage = 1;
+    let currentAggregatedItem = null;
+
+    function parseImageUrl(imageField) {
+      if (!imageField) return null;
+      try {
+        const parsed = typeof imageField === "string" ? JSON.parse(imageField) : imageField;
+        return parsed?.default || parsed?.url || (typeof parsed === "string" ? parsed : null);
+      } catch {
+        return typeof imageField === "string" ? imageField : null;
+      }
+    }
+
+    function renderResultsPage(items, page) {
+      const grid = document.getElementById("resultsGrid");
+      grid.innerHTML = "";
+      const start = (page - 1) * PAGE_SIZE;
+      const end = Math.min(start + PAGE_SIZE, items.length);
+      for (let i = start; i < end; i++) {
+        const item = items[i];
+        const imgUrl = parseImageUrl(item.image);
+        const card = document.createElement("div");
+        card.className = "item-card";
+        card.onclick = () => openDetailsForItem(item);
+        card.innerHTML = `
+          <div class="item-card-image-wrap">
+            ${imgUrl
+              ? `<img class="item-card-image" src="${imgUrl.replace(/"/g, "&quot;")}" alt="${(item.name || "").replace(/"/g, "&quot;")}" loading="lazy" onerror="this.style.display='none'">`
+              : `<span class="item-card-id">No image</span>`
+            }
+          </div>
+          <div class="item-card-body">
+            <div class="item-card-name">${escapeHtml(item.name || "—")}</div>
+            <div class="item-card-id">${escapeHtml(item.identifier || "")}</div>
+          </div>
+        `;
+        grid.appendChild(card);
+      }
+    }
+
+    function escapeHtml(s) {
+      const div = document.createElement("div");
+      div.textContent = s;
+      return div.innerHTML;
+    }
+
+    function renderPagination(total) {
+      const paginationEl = document.getElementById("pagination");
+      const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+      if (totalPages <= 1) {
+        paginationEl.style.display = "none";
+        return;
+      }
+      paginationEl.style.display = "flex";
+      paginationEl.innerHTML = `
+        <button type="button" ${currentPage <= 1 ? "disabled" : ""} onclick="goToPage(${currentPage - 1})">Previous</button>
+        <span>Page ${currentPage} of ${totalPages}</span>
+        <button type="button" ${currentPage >= totalPages ? "disabled" : ""} onclick="goToPage(${currentPage + 1})">Next</button>
+      `;
+    }
+
+    function goToPage(page) {
+      const totalPages = Math.max(1, Math.ceil(searchResults.length / PAGE_SIZE));
+      if (page < 1 || page > totalPages) return;
+      currentPage = page;
+      renderResultsPage(searchResults, currentPage);
+      renderPagination(searchResults.length);
+    }
+
+    async function send() {
+      const query = document.getElementById("text").value.trim();
+      if (!query) return;
+      const statusEl = document.getElementById("status");
+      const resultsSection = document.getElementById("resultsSection");
+      const resultsTitle = document.getElementById("resultsTitle");
+      statusEl.style.display = "block";
+      statusEl.dataset.kind = "info";
+      statusEl.textContent = "Searching…";
+      try {
+        const res = await fetch(`${API_BASE}/search-items?query=${encodeURIComponent(query)}`);
+        const data = await res.json();
+        if (!res.ok) {
+          setStatus("error", `Search failed (${res.status})`, data);
+          resultsSection.style.display = "none";
+          return;
+        }
+        const items = data?.result?.data ?? [];
+        searchResults = items;
+        currentPage = 1;
+        if (items.length === 0) {
+          setStatus("info", "No items found.");
+          resultsSection.style.display = "block";
+          resultsTitle.textContent = "No results";
+          document.getElementById("resultsGrid").innerHTML = "";
+          document.getElementById("pagination").style.display = "none";
+        } else {
+          setStatus("ok", `Found ${items.length} item(s).`);
+          resultsSection.style.display = "block";
+          resultsTitle.textContent = `Results (${items.length} item${items.length === 1 ? "" : "s"})`;
+          renderResultsPage(items, 1);
+          renderPagination(items.length);
+        }
+      } catch (e) {
+        setStatus("error", "Search failed (network / CORS).", { message: String(e) });
+        resultsSection.style.display = "none";
+      }
+    }
+
+    async function ingest() {
+      const env = document.getElementById("env").value;
+      const btn = document.getElementById("ingestBtn");
+      btn.disabled = true;
+      const original = btn.textContent;
+      btn.textContent = "Ingesting…";
+      setStatus("info", `Ingest started for environment: ${env}`);
+      try {
+        const res = await fetch(`${API_BASE}/ingest?environment_name=${encodeURIComponent(env)}`, {
+          method: "POST"
+        });
+        const text = await res.text();
+        let data;
+        try { data = text ? JSON.parse(text) : null; } catch { data = { raw: text }; }
+
+        if (!res.ok) {
+          setStatus("error", `Ingest failed (${res.status} ${res.statusText})`, data);
+          return;
+        }
+        setStatus("ok", "Ingest complete.", data);
+      } catch (e) {
+        setStatus("error", "Ingest failed (network / CORS error).", { message: String(e) });
+      } finally {
+        btn.textContent = original;
+        btn.disabled = false;
+      }
+    }
+
+    let voiceRecognition = null;
+
+    function voice() {
+      const input = document.getElementById("text");
+      const btn = document.getElementById("voiceBtn");
+      const statusEl = document.getElementById("status");
+
+      if (!("webkitSpeechRecognition" in window) && !("SpeechRecognition" in window)) {
+        setStatus("error", "Voice input is not supported in this browser. Try Chrome or Edge.");
+        return;
+      }
+      if (!window.isSecureContext) {
+        setStatus("error", "Voice search requires a secure page (HTTPS or localhost). Open this app via https:// or http://localhost.");
+        return;
+      }
+
+      // If already listening, stop
+      if (voiceRecognition) {
+        try { voiceRecognition.stop(); } catch (err) {}
+        voiceRecognition = null;
+        btn.textContent = "🎤";
+        btn.disabled = false;
+        return;
+      }
+
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      const r = new SpeechRecognition();
+      r.continuous = true;
+      r.interimResults = true;
+      r.lang = "en-IN";
+      r.maxAlternatives = 1;
+
+      r.onstart = function () {
+        btn.textContent = "⏹";
+        btn.title = "Stop listening";
+        setStatus("info", "Listening… Speak your search (e.g. \"sofa\" or \"centre table\").");
+        input.placeholder = "Listening…";
+      };
+
+      r.onresult = function (e) {
+        let fullFinal = "";
+        let interim = "";
+        for (let i = 0; i < e.results.length; i++) {
+          const transcript = e.results[i][0].transcript;
+          if (e.results[i].isFinal) {
+            fullFinal += transcript;
+          } else {
+            interim += transcript;
+          }
+        }
+        const toShow = (fullFinal + interim).trim();
+        if (toShow) input.value = toShow;
+      };
+
+      r.onerror = function (e) {
+        voiceRecognition = null;
+        btn.textContent = "🎤";
+        btn.disabled = false;
+        input.placeholder = "Enter search or speak...";
+        if (e.error === "not-allowed") {
+          setStatus("error", "Microphone access denied. Allow mic permission and try again.");
+        } else if (e.error === "no-speech") {
+          setStatus("info", "No speech heard. Try again.");
+        } else if (e.error === "network" || e.error === "service-not-allowed") {
+          setStatus("error", "Voice search uses the browser’s online speech service and couldn’t connect. Check your internet connection, or type your search in the box above.");
+        } else {
+          setStatus("error", "Voice error: " + (e.error || "Unknown"));
+        }
+      };
+
+      r.onend = function () {
+        voiceRecognition = null;
+        btn.textContent = "🎤";
+        btn.disabled = false;
+        input.placeholder = "Enter search or speak...";
+        const query = input.value.trim();
+        if (query) {
+          setStatus("info", "Transcribed: \"" + query + "\". Click Search or speak again.");
+        }
+      };
+
+      voiceRecognition = r;
+      try {
+        r.start();
+      } catch (err) {
+        voiceRecognition = null;
+        btn.textContent = "🎤";
+        setStatus("error", "Could not start microphone: " + (err.message || err));
+      }
+    }
+
+    let currentItemIdentifier = null;
+
+    async function openDetailsForItem(item) {
+      if (!item || !item.identifier) return;
+      currentItemIdentifier = item.identifier;
+      await loadItemDetails();
+    }
+
+    async function loadItemDetails() {
+      if (!currentItemIdentifier) return;
+      try {
+        const url = `${API_BASE}/vishanti-items-view?itemIdentifier=${encodeURIComponent(currentItemIdentifier)}`;
+        const res = await fetch(url);
+        const data = await res.json();
+        if (!res.ok) {
+          setStatus("error", `Failed to fetch item view (${res.status})`, data);
+          return;
+        }
+        if (!Array.isArray(data) || data.length === 0) {
+          setStatus("info", "No Vishanti data found for this item.");
+          return;
+        }
+        currentAggregatedItem = data[0];
+        showDetailsModal(currentAggregatedItem);
+      } catch (e) {
+        setStatus("error", "Failed to fetch Vishanti view (network / CORS).", { message: String(e) });
+      }
+    }
+
+    function showDetailsModal(agg) {
+      const modal = document.getElementById("detailsModal");
+      const titleEl = document.getElementById("detailsTitle");
+      const subtitleEl = document.getElementById("detailsSubtitle");
+      const imgEl = document.getElementById("detailsImage");
+      const imgPlaceholder = document.getElementById("detailsImagePlaceholder");
+      const cityFilter = document.getElementById("cityFilter");
+      const bodyEl = document.getElementById("cityStatsBody");
+
+      titleEl.textContent = agg.itemName || "Item";
+      subtitleEl.textContent = `${agg.itemIdentifier || ""}${agg.itemTypeIdentifier ? " • " + agg.itemTypeIdentifier : ""}`;
+
+      const imgUrl = parseImageUrl(agg.image);
+      if (imgUrl) {
+        imgEl.src = imgUrl;
+        imgEl.alt = agg.itemName || "";
+        imgEl.style.display = "block";
+        imgPlaceholder.style.display = "none";
+      } else {
+        imgEl.style.display = "none";
+        imgPlaceholder.style.display = "flex";
+      }
+
+      // Populate city filter options
+      const areas = Array.isArray(agg.areaStats) ? agg.areaStats.map(s => s.area).filter(Boolean) : [];
+      const uniqueAreas = Array.from(new Set(areas)).sort((a, b) => a.localeCompare(b));
+      cityFilter.innerHTML = '<option value="">All cities</option>' + uniqueAreas.map(a => `<option value="${escapeHtml(a)}">${escapeHtml(a)}</option>`).join("");
+
+      // Render table rows
+      bodyEl.innerHTML = buildCityRows(agg.areaStats);
+
+      modal.style.display = "flex";
+    }
+
+    function buildCityRows(areaStats) {
+      if (!Array.isArray(areaStats) || areaStats.length === 0) {
+        return `<tr><td colspan="5" style="padding:10px; text-align:center; color:var(--text-muted);">No city data</td></tr>`;
+      }
+      return areaStats.map(stat => {
+        const area = escapeHtml(stat.area || "");
+        const priceType = escapeHtml(stat.priceType || "Total");
+        const minP = Number(stat.minPrice ?? 0).toLocaleString("en-IN", { maximumFractionDigits: 2 });
+        const maxP = Number(stat.maxPrice ?? 0).toLocaleString("en-IN", { maximumFractionDigits: 2 });
+        const avgP = Number(stat.avgPrice ?? 0).toLocaleString("en-IN", { maximumFractionDigits: 2 });
+        
+        return `<tr>
+          <td style="padding:8px 10px; border-bottom:1px solid var(--border);">${area}</td>
+          <td style="padding:8px 10px; border-bottom:1px solid var(--border);">${priceType}</td>
+          <td style="padding:8px 10px; border-bottom:1px solid var(--border); text-align:right;">${minP}</td>
+          <td style="padding:8px 10px; border-bottom:1px solid var(--border); text-align:right;">${maxP}</td>
+          <td style="padding:8px 10px; border-bottom:1px solid var(--border); text-align:right;">${avgP}</td>
+        </tr>`;
+      }).join("");
+    }
+
+    function applyCityFilter() {
+      if (!currentAggregatedItem) return;
+      const cityFilter = document.getElementById("cityFilter");
+      const bodyEl = document.getElementById("cityStatsBody");
+      const selected = cityFilter.value;
+      const stats = Array.isArray(currentAggregatedItem.areaStats) ? currentAggregatedItem.areaStats : [];
+      const filtered = selected ? stats.filter(s => s.area === selected) : stats;
+      bodyEl.innerHTML = buildCityRows(filtered);
+    }
+
+    function closeDetailsModal() {
+      const modal = document.getElementById("detailsModal");
+      modal.style.display = "none";
+      currentAggregatedItem = null;
+      currentItemIdentifier = null;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+
+{
+  "name": "voice-search",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "scripts": {
+    "start": "npx serve ."
+  }
+}

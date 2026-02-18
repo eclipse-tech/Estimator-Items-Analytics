@@ -1,0 +1,1218 @@
+{
+    "console table": {
+        "hindi": {"native": "कंसोल टेबल, दीवार मेज़", "roman": "kansol tebal, diwar mez"},
+        "bengali": {"native": "কনসোল টেবিল", "roman": "konsol tebil"},
+        "tamil": {"native": "கான்சல் மேசை, சுவரோர மேசை", "roman": "kansal mesai, suvarora mesai"},
+        "telugu": {"native": "కన్సోల్ టేబుల్", "roman": "kansol tebul"},
+        "kannada": {"native": "ಕನ್ಸೋಲ್ ಟೇಬಲ್", "roman": "kansol tebal"},
+        "malayalam": {"native": "കൺസോൾ ടേബിൾ", "roman": "kansol tebil"}
+    },
+    "display shelf": {
+        "hindi": {"native": "डिस्प्ले शेल्फ, प्रदर्शन रैक", "roman": "display shelf, pradarshan raik"},
+        "bengali": {"native": "ডিসপ্লে শেল্ফ", "roman": "display shelph"},
+        "tamil": {"native": "காட்சி அலமாரி, காட்சி அடுக்கு", "roman": "kaatchi alamari, kaatchi adukku"},
+        "telugu": {"native": "ప్రదర్శన షెల్ఫ్", "roman": "pradarshana shelf"},
+        "kannada": {"native": "ಪ್ರದರ್ಶನ ಶೆಲ್ಫ್", "roman": "pradarshana shelf"},
+        "malayalam": {"native": "പ്രദർശന ഷെൽഫ്", "roman": "pradarshana shelf"}
+    },
+    "seating area": {
+        "hindi": {"native": "बैठने का क्षेत्र, आसन क्षेत्र", "roman": "baithne ka kshetra, aasan kshetra"},
+        "bengali": {"native": "বসার জায়গা", "roman": "bosar jayga"},
+        "tamil": {"native": "அமரும் பகுதி", "roman": "amarum paguthi"},
+        "telugu": {"native": "కూర్చునే ప్రాంతం", "roman": "kurchune prantam"},
+        "kannada": {"native": "ಆಸನ ಪ್ರದೇಶ", "roman": "aasana pradesha"},
+        "malayalam": {"native": "ഇരിപ്പിട സ്ഥലം", "roman": "irippida sthalam"}
+    },
+    "false ceiling": {
+        "hindi": {"native": "झूठी छत, फॉल्स सीलिंग", "roman": "jhuthhi chhat, falls siling"},
+        "bengali": {"native": "ফলস সিলিং", "roman": "phols siling"},
+        "tamil": {"native": "போலி கூரை", "roman": "poli kurai"},
+        "telugu": {"native": "ఫాల్స్ సీలింగ్", "roman": "false ceiling"},
+        "kannada": {"native": "ಸುಳ್ಳು ಸೀಲಿಂಗ್", "roman": "sullu siling"},
+        "malayalam": {"native": "ഫാൾസ് സീലിംഗ്", "roman": "false ceiling"}
+    },
+    "sofa set": {
+        "hindi": {"native": "सोफा सेट", "roman": "sofa set"},
+        "bengali": {"native": "সোফা সেট", "roman": "sopha set"},
+        "tamil": {"native": "சோபா செட்", "roman": "soba set"},
+        "telugu": {"native": "సోఫా సెట్", "roman": "sopha set"},
+        "kannada": {"native": "ಸೋಫಾ ಸೆಟ್", "roman": "sopha set"},
+        "malayalam": {"native": "സോഫാ സെറ്റ്", "roman": "sopha sett"}
+    },
+    "centre table": {
+        "hindi": {"native": "सेंटर टेबल, केंद्र मेज़", "roman": "senter tebal, kendra mez"},
+        "bengali": {"native": "সেন্টার টেবিল", "roman": "senter tebil"},
+        "tamil": {"native": "மைய மேசை", "roman": "maiya mesai"},
+        "telugu": {"native": "సెంటర్ టేబుల్", "roman": "senter tebul"},
+        "kannada": {"native": "ಸೆಂಟರ್ ಟೇಬಲ್", "roman": "senter tebal"},
+        "malayalam": {"native": "സെന്റർ ടേബിൾ", "roman": "senter tebil"}
+    },
+    "tv wall unit": {
+        "hindi": {"native": "टीवी वॉल यूनिट", "roman": "ti vi wol unit"},
+        "bengali": {"native": "টিভি ওয়াল/দেয়াল ইউনিট", "roman": "tibi oyal iunit"},
+        "tamil": {"native": "டிவி சுவர் அலகு", "roman": "tv suvar alagu"},
+        "telugu": {"native": "టీవీ వాల్ యూనిಟ್", "roman": "tv wall unit"},
+        "kannada": {"native": "ಟಿವಿ ವಾಲ್ ಯೂನಿಟ್", "roman": "tv wall unit"},
+        "malayalam": {"native": "ടിവി വാൾ യൂണിറ്റ്", "roman": "tv wall unit"}
+    },
+    "storage unit": {
+        "hindi": {"native": "स्टोरेज यूनिट, भंडारण इकाई", "roman": "storej unit, bhandaran ikai"},
+        "bengali": {"native": "স্টোরেজ ইউনিট", "roman": "storej iunit"},
+        "tamil": {"native": "சேமிப்பு அலகு", "roman": "semippu alagu"},
+        "telugu": {"native": "నిల్వ యూనిట్", "roman": "nilva unit"},
+        "kannada": {"native": "ಶೇಖರಣಾ ಘಟಕ", "roman": "shekharana ghataka"},
+        "malayalam": {"native": "സംഭരണ യൂണിറ്റ്", "roman": "sambharana unit"}
+    },
+    "bar unit": {
+        "hindi": {"native": "बार यूनिट", "roman": "bar unit"},
+        "bengali": {"native": "বার ইউনিট", "roman": "bar iunit"},
+        "tamil": {"native": "பார் அலகு", "roman": "bar alagu"},
+        "telugu": {"native": "బార్ యూనిట్", "roman": "bar unit"},
+        "kannada": {"native": "ಬಾರ್ ಘಟಕ", "roman": "bar ghataka"},
+        "malayalam": {"native": "ബാർ യൂണിറ്റ്", "roman": "bar unit"}
+    },
+    "book shelf": {
+        "hindi": {"native": "बुक शेल्फ, किताबों की अलमारी", "roman": "buk shelf, kitabon ki almari"},
+        "bengali": {"native": "বুক শেল্ফ", "roman": "buk shelph"},
+        "tamil": {"native": "புத்தக அலமாரி", "roman": "puththaka alamari"},
+        "telugu": {"native": "పుస్తకాల షెల్ఫ్", "roman": "pustakala shelf"},
+        "kannada": {"native": "ಪುಸ್ತಕದ ಕಪಾಟು", "roman": "pustakada kapatu"},
+        "malayalam": {"native": "പുസ്തക ഷെൽഫ്", "roman": "pustaka shelf"}
+    },
+    "partition": {
+        "hindi": {"native": "पार्टीशन, विभाजन", "roman": "partishan, vibhajan"},
+        "bengali": {"native": "বিভাজন", "roman": "bibhajon"},
+        "tamil": {"native": "பிரிப்பான்", "roman": "pirippaan"},
+        "telugu": {"native": "విభజన", "roman": "vibhajana"},
+        "kannada": {"native": "ವಿಭಜಕ", "roman": "vibhajaka"},
+        "malayalam": {"native": "വിഭജനം", "roman": "vibhajanam"}
+    },
+    "tv base unit": {
+        "hindi": {"native": "टीवी बेस यूनिट", "roman": "ti vi bes unit"},
+        "bengali": {"native": "টিভি বেস ইউনিট", "roman": "tibi bes iunit"},
+        "tamil": {"native": "டிவி அடி அலகு", "roman": "tv adi alagu"},
+        "telugu": {"native": "టీవీ బేస్ యూనిಟ್", "roman": "tv bes unit"},
+        "kannada": {"native": "ಟಿವಿ ಬೇಸ್ ಯೂನಿಟ್", "roman": "tv bes unit"},
+        "malayalam": {"native": "ടിവി ബേസ് യൂണിറ്റ്", "roman": "tv bes unit"}
+    },
+    "pooja unit with shutter": {
+        "hindi": {"native": "शटर के साथ पूजा यूनिट", "roman": "shatar ke sath puja unit"},
+        "bengali": {"native": "শাটার সহ পূজা ইউনিট", "roman": "shatar saha puja iunit"},
+        "tamil": {"native": "ஷட்டர் கொண்ட பூஜை அலகு", "roman": "shattar konda pujai alagu"},
+        "telugu": {"native": "షట్టర్‌తో పూజ యూనిట్", "roman": "shattarto puja unit"},
+        "kannada": {"native": "ಶಟರ್‌ನೊಂದಿಗೆ ಪೂಜಾ ಘಟಕ", "roman": "shatarnondige puja ghataka"},
+        "malayalam": {"native": "ഷട്ടർ ഉള്ള പൂജാ യൂണിറ്റ്", "roman": "shattar ulla puja unit"}
+    },
+    "pooja unit without shutter": {
+        "hindi": {"native": "शटर के बिना पूजा यूनिट", "roman": "shatar ke bina puja unit"},
+        "bengali": {"native": "শাটার ছাড়া পূজা ইউনিট", "roman": "shatar chara puja iunit"},
+        "tamil": {"native": "ஷட்டர் இல்லாத பூஜை அலகு", "roman": "shattar illadha pujai alagu"},
+        "telugu": {"native": "షట్టర్ లేకుండా పూజ యూనిట్", "roman": "shattar lekunda puja unit"},
+        "kannada": {"native": "ಶಟರ್ ಇಲ್ಲದೆ ಪೂಜಾ ಘಟಕ", "roman": "shatar illade puja ghataka"},
+        "malayalam": {"native": "ഷട്ടർ ഇല്ലാത്ത പൂജാ യൂണിറ്റ്", "roman": "shattar illatta puja unit"}
+    },
+    "crockery unit": {
+        "hindi": {"native": "क्रॉकरी यूनिट", "roman": "krokari unit"},
+        "bengali": {"native": "ক্রোকারিজ ইউনিট", "roman": "krokarij iunit"},
+        "tamil": {"native": "பாத்திர அலகு", "roman": "paththira alagu"},
+        "telugu": {"native": "క్రాకరీ యూనిట్", "roman": "krakari unit"},
+        "kannada": {"native": "ಕ್ರೋಕರಿ ಘಟಕ", "roman": "krokari ghataka"},
+        "malayalam": {"native": "ക്രോക്കറി യൂണിറ്റ്", "roman": "krokkari unit"}
+    },
+    "vanity unit -sink area": {
+        "hindi": {"native": "वैनिटी यूनिट, सिंक क्षेत्र", "roman": "vainati unit, sink kshetra"},
+        "bengali": {"native": "ভ্যানিটি ইউনিট, সিঙ্ক এলাকা", "roman": "bhaniti iunit, sink elaka"},
+        "tamil": {"native": "வனிட்டி அலகு, தொட்டி பகுதி", "roman": "vanitti alagu, thotti paguthi"},
+        "telugu": {"native": "వానిటీ యూనిట్, సింక్ ఏరియా", "roman": "vaniti unit, sink eriya"},
+        "kannada": {"native": "ವ್ಯಾನಿಟಿ ಘಟಕ, ಸಿಂಕ್ ಪ್ರದೇಶ", "roman": "vyaniti ghataka, sink pradesha"},
+        "malayalam": {"native": "വാനിറ്റി യൂണിറ്റ്, സിങ്ക് ഏരിയ", "roman": "vanitti unit, sink eriya"}
+    },
+    "bottom unit -base unit": {
+        "hindi": {"native": "निचली इकाई, आधार इकाई", "roman": "nichli ikai, adhar ikai"},
+        "bengali": {"native": "নীচের ইউনিট, বেস ইউনিট", "roman": "nicher iunit, bes iunit"},
+        "tamil": {"native": "அடி அலகு, அடிப்படை அலகு", "roman": "adi alagu, adippadai alagu"},
+        "telugu": {"native": "దిగువ యూనిట్, బేస్ యూనిట్", "roman": "diguva unit, bes unit"},
+        "kannada": {"native": "ಕೆಳ ಘಟಕ, ಬೇಸ್ ಘಟಕ", "roman": "kela ghataka, bes ghataka"},
+        "malayalam": {"native": "താഴത്തെ യൂണിറ്റ്, ബേസ് യൂണിറ്റ്", "roman": "thazhatthe unit, bes unit"}
+    },
+    "tall unit pullout - ss": {
+        "hindi": {"native": "लंबी पुलआउट यूनिट, एस.एस.", "roman": "lambi pulaut unit, es.es."},
+        "bengali": {"native": "লম্বা পুলআউট ইউনিট, এস.এস.", "roman": "lomba pulaut iunit, es.es."},
+        "tamil": {"native": "உயரமான இழுப்பறை அலகு, எஸ்.எஸ்.", "roman": "uyaramaana izhupparai alagu, es.es."},
+        "telugu": {"native": "పొడవైన పులౌట్ యూనిట్, ఎస్.ఎస్.", "roman": "podavaina pulaut unit, es.es."},
+        "kannada": {"native": "ಎತ್ತರದ ಪುಲ್‌ಔಟ್ ಘಟಕ, ಎಸ್.ಎಸ್.", "roman": "ettarada pulaut ghataka, es.es."},
+        "malayalam": {"native": "നീളമുള്ള പുൾഔട്ട് യൂണിറ്റ്, എസ്.എസ്.", "roman": "neelamulla pulaut unit, es.es."}
+    },
+    "tambor unit -storage unit": {
+        "hindi": {"native": "टैम्बोर यूनिट, स्टोरेज यूनिट", "roman": "tambor unit, storej unit"},
+        "bengali": {"native": "ট্যাম্বর ইউনিট, স্টোরেজ ইউনিট", "roman": "tamvar iunit, storej iunit"},
+        "tamil": {"native": "டேம்பர் அலகு, சேமிப்பு அலகு", "roman": "tamper alagu, semippu alagu"},
+        "telugu": {"native": "తాంబోర్ యూనిట్, స్టోరేజ్ యూనిట్", "roman": "tambor unit, storej unit"},
+        "kannada": {"native": "ಟ್ಯಾಂಬರ್ ಘಟಕ, ಶೇಖರಣಾ ಘಟಕ", "roman": "tambar ghataka, shekharana ghataka"},
+        "malayalam": {"native": "താംബോർ യൂണിറ്റ്, സ്റ്റോറേജ് യൂണിറ്റ്", "roman": "thambor unit, storej unit"}
+    },
+    "wall sliding unit": {
+        "hindi": {"native": "दीवार स्लाइडिंग यूनिट", "roman": "diwar slaiding unit"},
+        "bengali": {"native": "ওয়াল/দেয়াল স্লাইডিং ইউনিট", "roman": "oyal slaiding iunit"},
+        "tamil": {"native": "சுவர் சறுக்கு அலகு", "roman": "suvar sarukku alagu"},
+        "telugu": {"native": "వాల్ స్లైడింగ్ యూనిట్", "roman": "wall slaiding unit"},
+        "kannada": {"native": "ವಾಲ್ ಸ್ಲೈಡಿಂಗ್ ಘಟಕ", "roman": "wall slaiding ghataka"},
+        "malayalam": {"native": "വാൾ സ്ലൈഡിംഗ് യൂണിറ്റ്", "roman": "wall slaiding unit"}
+    },
+    "loft storage - top storage": {
+        "hindi": {"native": "लॉफ्ट स्टोरेज, ऊपरी भंडारण", "roman": "loft storej, upari bhandaran"},
+        "bengali": {"native": "লফট স্টোরেজ, উপরের স্টোরেজ", "roman": "lopht storej, uparer storej"},
+        "tamil": {"native": "மாடி சேமிப்பு, மேல் சேமிப்பு", "roman": "maadi semippu, mel semippu"},
+        "telugu": {"native": "లాఫ్ట్ స్టోరేజ్, టాప్ స్టోరేஜ்", "roman": "laft storej, tap storej"},
+        "kannada": {"native": "ಲೋಫ್ಟ್ ಸಂಗ್ರಹಣೆ, ಮೇಲಿನ ಸಂಗ್ರಹಣೆ", "roman": "loft sangrahane, melina sangrahane"},
+        "malayalam": {"native": "ലോഫ്റ്റ് സ്റ്റോറേജ്, മുകളിലെ സ്റ്റോറേജ്", "roman": "loft storej, mukalile storej"}
+    },
+    "wooden cutlery tray": {
+        "hindi": {"native": "लकड़ी का कटलरी ट्रे", "roman": "lakri ka katlari tre"},
+        "bengali": {"native": "কাঠের কাটলারি ট্রে", "roman": "kather katlari tre"},
+        "tamil": {"native": "மரக் கட்லரி தட்டு", "roman": "marak katlari thattu"},
+        "telugu": {"native": "చెక్క కట్లరీ ట్రే", "roman": "chekka katlari tre"},
+        "kannada": {"native": "ಮರದ ಕಟ್ಲರಿ ಟ್ರೇ", "roman": "marada katlari tre"},
+        "malayalam": {"native": "മരം കട്ട്ലറി ട്രേ", "roman": "maram katlari tre"}
+    },
+    "under sink organiser": {
+        "hindi": {"native": "सिंक के नीचे आयोजक", "roman": "sink ke niche aayojak"},
+        "bengali": {"native": "সিঙ্ক অর্গানাইজার", "roman": "sink organaijar"},
+        "tamil": {"native": "தொட்டிக்கு அடியில் அமைப்பாளர்", "roman": "thottikku adiyil amaippalar"},
+        "telugu": {"native": "సింక్ కింద ఆర్గనైజర్", "roman": "sink kinda organaizer"},
+        "kannada": {"native": "ಸಿಂಕ್ ಅಡಿಯಲ್ಲಿ ಆಯೋಜಕ", "roman": "sink adiyalli ayojaka"},
+        "malayalam": {"native": "സിങ്കിന് താഴെയുള്ള ഓർഗനൈസർ", "roman": "sinkin thazheyulla organaiser"}
+    },
+    "plain basket": {
+        "hindi": {"native": "प्लेन टोकरी", "roman": "plen tokari"},
+        "bengali": {"native": "সাধারণ ঝুড়ি", "roman": "sadharan jhuri"},
+        "tamil": {"native": "சாதாரண கூடை", "roman": "saadharana kudai"},
+        "telugu": {"native": "సాదా బుట్ట", "roman": "sada butta"},
+        "kannada": {"native": "ಸಾದಾ ಬುಟ್ಟಿ", "roman": "saada butti"},
+        "malayalam": {"native": "പ്ലെയിൻ കുട്ട", "roman": "plein kutta"}
+    },
+    "cup & saucer basket": {
+        "hindi": {"native": "कप और तश्तरी टोकरी", "roman": "kap aur tashtari tokari"},
+        "bengali": {"native": "কাপ ও সসার ঝুড়ি", "roman": "kap o sasar jhuri"},
+        "tamil": {"native": "கப் & சாஸர் கூடை", "roman": "kap and sasar kudai"},
+        "telugu": {"native": "కప్పు సాసర్ బుట్ట", "roman": "kappu sasar butta"},
+        "kannada": {"native": "ಕಪ್ ಮತ್ತು ಸಾಸರ್ ಬುಟ್ಟಿ", "roman": "kap mattu sasar butti"},
+        "malayalam": {"native": "കപ്പ് സോസർ കുട്ട", "roman": "kap sosar kutta"}
+    },
+    "thali basket": {
+        "hindi": {"native": "थाली टोकरी", "roman": "thali tokari"},
+        "bengali": {"native": "থালি ঝুড়ি", "roman": "thali jhuri"},
+        "tamil": {"native": "தட்டு கூடை", "roman": "thattu kudai"},
+        "telugu": {"native": "థాలి బుట్ట", "roman": "thali butta"},
+        "kannada": {"native": "ತಟ್ಟೆ ಬುಟ್ಟಿ", "roman": "thatte butti"},
+        "malayalam": {"native": "താളി കുട്ട", "roman": "thali kutta"}
+    },
+    "double bottle pullout": {
+        "hindi": {"native": "डबल बोतल पुलआउट", "roman": "dabal botal pulaut"},
+        "bengali": {"native": "ডাবল বোতল পুলআউট", "roman": "dabal botal pulaut"},
+        "tamil": {"native": "இரட்டை பாட்டில் இழுப்பறை", "roman": "irattai paattil izhupparai"},
+        "telugu": {"native": "డబుల్ బాటిల్ పులౌట్", "roman": "dabul batil pulaut"},
+        "kannada": {"native": "ಡಬಲ್ ಬಾಟಲ್ ಪುಲ್‌ಔಟ್", "roman": "dabal batal pulaut"},
+        "malayalam": {"native": "ഡബിൾ ബോട്ടിൽ പുൾഔട്ട്", "roman": "dabal bottil pulaut"}
+    },
+    "tall unit": {
+        "hindi": {"native": "लंबी इकाई, बड़ा यूनिट", "roman": "lambi ikai, bada unit"},
+        "bengali": {"native": "লম্বা ইউনিট", "roman": "lomba iunit"},
+        "tamil": {"native": "உயரமான அலகு", "roman": "uyaramaana alagu"},
+        "telugu": {"native": "పొడవైన యూనిట్", "roman": "podavaina unit"},
+        "kannada": {"native": "ಎತ್ತರದ ಘಟಕ", "roman": "ettarada ghataka"},
+        "malayalam": {"native": "നീളമുള്ള യൂണിറ്റ്", "roman": "neelamulla unit"}
+    },
+    "pvc cutlery tray": {
+        "hindi": {"native": "पीवीसी कटलरी ट्रे", "roman": "pivisi katlari tre"},
+        "bengali": {"native": "পিভিসি কাটলারি ট্রে", "roman": "pibhisi katlari tre"},
+        "tamil": {"native": "பிவிசி கட்லரி தட்டு", "roman": "pivisi katlari thattu"},
+        "telugu": {"native": "పీవీసీ కట్లరీ ట్రే", "roman": "pivisi katlari tre"},
+        "kannada": {"native": "ಪಿವಿಸಿ ಕಟ್ಲರಿ ಟ್ರೇ", "roman": "pivisi katlari tre"},
+        "malayalam": {"native": "പിവിസി കട്ട്ലറി ട്രേ", "roman": "pivisi katlari tre"}
+    },
+    "magic corner": {
+        "hindi": {"native": "मैजिक कॉर्नर", "roman": "maijik kornar"},
+        "bengali": {"native": "ম্যাজিক কর্নার", "roman": "maijik kornar"},
+        "tamil": {"native": "மேஜிக் மூலை", "roman": "mejik moolai"},
+        "telugu": {"native": "మ్యాజిక్ కార్నర్", "roman": "maijik kornar"},
+        "kannada": {"native": "ಮ್ಯಾಜಿಕ್ ಕಾರ್ನರ್", "roman": "maijik kornar"},
+        "malayalam": {"native": "മാജിക് കോർണർ", "roman": "maajik kornar"}
+    },
+    "wall mounted plate holder": {
+        "hindi": {"native": "दीवार पर लगा प्लेट होल्डर", "roman": "diwar par laga plet holdar"},
+        "bengali": {"native": "ওয়াল/দেয়াল মাউন্টেড প্লেট হোল্ডার", "roman": "oyal maunted plet holdar"},
+        "tamil": {"native": "சுவர் பொருத்தப்பட்ட தட்டு ஹோல்டர்", "roman": "suvar poruththappatta thattu holdar"},
+        "telugu": {"native": "వాల్ మౌంటెడ్ ప్లేట్ హోల్డర్", "roman": "wall maunted plet holdar"},
+        "kannada": {"native": "ವಾಲ್ ಮೌಂಟೆಡ್ ಪ್ಲೇಟ್ ಹೋಲ್ಡರ್", "roman": "wall maunted plet holdar"},
+        "malayalam": {"native": "വാൾ മൗണ്ടഡ് പ്ലേറ്റ് ഹോൾഡർ", "roman": "wall maunted plett holdar"}
+    },
+    "wicker basket": {
+        "hindi": {"native": "विकर टोकरी, बेंत की टोकरी", "roman": "vikar tokari, bent ki tokari"},
+        "bengali": {"native": "বেতের ঝুড়ি", "roman": "beter jhuri"},
+        "tamil": {"native": "பிரம்பு கூடை", "roman": "pirambu kudai"},
+        "telugu": {"native": "వికర్ బుట్ట", "roman": "vikar butta"},
+        "kannada": {"native": "ಬಿದಿರಿನ ಬುಟ್ಟಿ", "roman": "bidirina butti"},
+        "malayalam": {"native": "വിക്കർ കുട്ട", "roman": "vikkar kutta"}
+    },
+    "tandem drawers": {
+        "hindi": {"native": "टैंडम दराज", "roman": "taindam daraj"},
+        "bengali": {"native": "ট্যান্ডেম ড্রয়ার", "roman": "tandem drayar"},
+        "tamil": {"native": "டேண்டம் இழுப்பறை", "roman": "dandam izhupparai"},
+        "telugu": {"native": "టాండెం డ్రాయర్లు", "roman": "tandam drayarlu"},
+        "kannada": {"native": "ಟ್ಯಾಂಡಮ್ ಡ್ರಾಯರ್‌ಗಳು", "roman": "tandum drayargalu"},
+        "malayalam": {"native": "ടാണ്ടം ഡ്രോയറുകൾ", "roman": "tandam drayarukal"}
+    },
+    "counter top - fixing": {
+        "hindi": {"native": "काउंटर टॉप, फिक्सिंग", "roman": "kauntar top, phiksing"},
+        "bengali": {"native": "কাউন্টার টপ, ফিক্সিং", "roman": "kauntar tap, phiksing"},
+        "tamil": {"native": "மேசை மேல், பொருத்துதல்", "roman": "mesai mel, poruthuthal"},
+        "telugu": {"native": "కౌంటర్ టాప్, ఫిక్సింగ్", "roman": "kauntar tap, phiksing"},
+        "kannada": {"native": "ಕೌಂಟರ್ ಟಾಪ್, ಫಿಕ್ಸಿಂಗ್", "roman": "kauntar tap, phiksing"},
+        "malayalam": {"native": "കൗണ്ടർ ടോപ്പ്, ഫിക്സിംഗ്", "roman": "kauntar topp, phiksing"}
+    },
+    "dado tile - fixing": {
+        "hindi": {"native": "डैडो टाइल, फिक्सिंग", "roman": "daido tail, phiksing"},
+        "bengali": {"native": "ড্যাডো টাইল, ফিক্সিং", "roman": "dado tail, phiksing"},
+        "tamil": {"native": "டாடோ ஓடு, பொருத்துதல்", "roman": "dado odu, poruthuthal"},
+        "telugu": {"native": "డాడో టైల్, ఫిక్సింగ్", "roman": "dado tail, phiksing"},
+        "kannada": {"native": "ಡಾಡೋ ಟೈಲ್, ಫಿಕ್ಸಿಂಗ್", "roman": "dado tail, phiksing"},
+        "malayalam": {"native": "ഡാഡോ ടൈൽ, ഫിക്സിംഗ്", "roman": "dado tail, phiksing"}
+    },
+    "3 tier base unit pullout": {
+        "hindi": {"native": "3 टियर बेस यूनिट पुलआउट", "roman": "3 tiyar bes unit pulaut"},
+        "bengali": {"native": "৩ টায়ার বেস ইউনিট পুলআউট", "roman": "3 tayar bes iunit pulaut"},
+        "tamil": {"native": "3 அடுக்கு அடிப்படை அலகு இழுப்பறை", "roman": "3 adukku adippadai alagu izhupparai"},
+        "telugu": {"native": "3 శ్రేణి బేస్ యూనిట్ పులౌట్", "roman": "3 shreni bes unit pulaut"},
+        "kannada": {"native": "3 ಶ್ರೇಣಿಯ ಬೇಸ್ ಘಟಕ ಪುಲ್‌ಔಟ್", "roman": "3 shreniya bes ghataka pulaut"},
+        "malayalam": {"native": "3 തട്ട് ബേസ് യൂണിറ്റ് പുൾഔട്ട്", "roman": "3 thatt bes unit pulaut"}
+    },
+    "wall unit": {
+        "hindi": {"native": "दीवार इकाई, वॉल यूनिट", "roman": "diwar ikai, wol unit"},
+        "bengali": {"native": "ওয়াল/দেয়াল ইউনিট", "roman": "oyal iunit"},
+        "tamil": {"native": "சுவர் அலகு", "roman": "suvar alagu"},
+        "telugu": {"native": "వాల్ యూనిట్", "roman": "wall unit"},
+        "kannada": {"native": "ವಾಲ್ ಘಟಕ", "roman": "wall ghataka"},
+        "malayalam": {"native": "വാൾ യൂണിറ്റ്", "roman": "wall unit"}
+    },
+    "bed": {
+        "hindi": {"native": "बिस्तर, पलंग", "roman": "bistar, palang"},
+        "bengali": {"native": "বিছানা, খাট", "roman": "bichhana, khat"},
+        "tamil": {"native": "கட்டில், படுக்கை", "roman": "kattil, padukkai"},
+        "telugu": {"native": "మంచం, పడక", "roman": "mancham, padaka"},
+        "kannada": {"native": "ಮಂಚ, ಹಾಸಿಗೆ", "roman": "mancha, hasige"},
+        "malayalam": {"native": "കട്ടിൽ, കിടക്ക", "roman": "kattil, kidakka"}
+    },
+    "bed bench": {
+        "hindi": {"native": "पलंग बेंच", "roman": "palang bench"},
+        "bengali": {"native": "বিছানার বেঞ্চ", "roman": "bichhanar bench"},
+        "tamil": {"native": "படுக்கை பெஞ்ச்", "roman": "padukkai bench"},
+        "telugu": {"native": "బెడ్ బెంచ్", "roman": "bed bench"},
+        "kannada": {"native": "ಹಾಸಿಗೆಯ ಬೆಂಚ್", "roman": "hasigeya bench"},
+        "malayalam": {"native": "കിടക്ക ബെഞ്ച്", "roman": "kidakka bench"}
+    },
+    "bed side table": {
+        "hindi": {"native": "बिस्तर के बगल की मेज़, बेड साइड टेबल", "roman": "bistar ke bagal ki mez, bed said tebal"},
+        "bengali": {"native": "বেড সাইড টেবিল", "roman": "bed said tebil"},
+        "tamil": {"native": "படுக்கை பக்க மேசை", "roman": "padukkai pakka mesai"},
+        "telugu": {"native": "బెడ్ సైడ్ టేబుల్", "roman": "bed said tebul"},
+        "kannada": {"native": "ಹಾಸಿಗೆಯ ಪಕ್ಕದ ಟೇಬಲ್", "roman": "hasigeya pakkada tebal"},
+        "malayalam": {"native": "കിടക്കയുടെ അരികിലെ മേശ", "roman": "kidakkayude arikile mesha"}
+    },
+    "wardrobe": {
+        "hindi": {"native": "अलमारी, वार्डरोब", "roman": "almari, wardrob"},
+        "bengali": {"native": "আলমারি", "roman": "almari"},
+        "tamil": {"native": "உடை அலமாரி", "roman": "udai alamari"},
+        "telugu": {"native": "వార్డ్‌ரோಬ್", "roman": "vardrob"},
+        "kannada": {"native": "ಬಟ್ಟೆ ಕಪಾಟು", "roman": "batte kapatu"},
+        "malayalam": {"native": "അലമാര", "roman": "alamara"}
+    },
+    "dressing unit": {
+        "hindi": {"native": "ड्रेसिंग यूनिट", "roman": "dresing unit"},
+        "bengali": {"native": "ড্রেসিং ইউনিট", "roman": "dresing iunit"},
+        "tamil": {"native": "அலங்கார அலகு", "roman": "alangara alagu"},
+        "telugu": {"native": "డ్రెస్సింగ్ యూనిట్", "roman": "dresing unit"},
+        "kannada": {"native": "ಡ್ರೆಸ್ಸಿಂಗ್ ಘಟಕ", "roman": "dresing ghataka"},
+        "malayalam": {"native": "ഡ്രസ്സിംഗ് യൂണിറ്റ്", "roman": "dresing unit"}
+    },
+    "study unit": {
+        "hindi": {"native": "स्टडी यूनिट, अध्ययन इकाई", "roman": "stadi unit, adhyayan ikai"},
+        "bengali": {"native": "স্টাডি ইউনিট", "roman": "stadi iunit"},
+        "tamil": {"native": "படிக்கும் அலகு", "roman": "padikkum alagu"},
+        "telugu": {"native": "స్టడీ యూనిట్", "roman": "stadi unit"},
+        "kannada": {"native": "ಸ್ಟಡಿ ಘಟಕ", "roman": "stadi ghataka"},
+        "malayalam": {"native": "സ്റ്റഡി യൂണിറ്റ്", "roman": "stadi unit"}
+    },
+    "bathroom cabinet": {
+        "hindi": {"native": "बाथरूम कैबिनेट", "roman": "bathroom kainabinet"},
+        "bengali": {"native": "বাথরুমের ক্যাবিনেট", "roman": "bathrumer kabinet"},
+        "tamil": {"native": "குளியலறை அலமாரி", "roman": "kuliyalarai alamari"},
+        "telugu": {"native": "బాత్రూమ్ క్యాబినెట్", "roman": "bathroom kabinet"},
+        "kannada": {"native": "ಬಾತ್ರೂಮ್ ಕ್ಯಾಬಿನೆಟ್", "roman": "bathroom kabinet"},
+        "malayalam": {"native": "ബാത്ത്റൂം കാബിനറ്റ്", "roman": "bathroom kabinet"}
+    },
+    "shoe rack": {
+        "hindi": {"native": "जूते का रैक, शू रैक", "roman": "joote ka raik, shoo raik"},
+        "bengali": {"native": "জুতার তাক", "roman": "jutar tak"},
+        "tamil": {"native": "காலணி அடுக்கு", "roman": "kaalani adukku"},
+        "telugu": {"native": "షూ ర్యాక్", "roman": "shoo rak"},
+        "kannada": {"native": "ಶೂ ರ್ಯಾಕ್", "roman": "shoo rak"},
+        "malayalam": {"native": "ഷൂ റാക്ക്", "roman": "shoo rakk"}
+    },
+    "tv area wall panelling": {
+        "hindi": {"native": "टीवी क्षेत्र की दीवार पैनलिंग", "roman": "ti vi kshetra ki diwar painaling"},
+        "bengali": {"native": "টিভি এলাকা ওয়াল/দেয়াল প্যানেলিং", "roman": "tibi elaka oyal paneling"},
+        "tamil": {"native": "டிவி பகுதி சுவர் பேனலிங்", "roman": "tv paguthi suvar paneling"},
+        "telugu": {"native": "టీవీ ఏరియా వాల్ ప్యానలింగ్", "roman": "tv eriya wall paneling"},
+        "kannada": {"native": "ಟಿವಿ ಪ್ರದೇಶದ ವಾಲ್ ಪ್ಯಾನೆಲಿಂಗ್", "roman": "tv pradesada wall paneling"},
+        "malayalam": {"native": "ടിവി ഏരിയ വാൾ പാനലിംഗ്", "roman": "tv eriya wall panaling"}
+    },
+    "kitchen bottom unit": {
+        "hindi": {"native": "किचन बॉटम यूनिट, रसोई निचली इकाई", "roman": "kichen botam unit, rasoi nichli ikai"},
+        "bengali": {"native": "রান্নাঘরের নীচের ইউনিট", "roman": "rannagharer nicher iunit"},
+        "tamil": {"native": "சமையலறை அடிப்படை அலகு", "roman": "samayalarai adippadai alagu"},
+        "telugu": {"native": "కిచెన్ బాటమ్ యూనిట్", "roman": "kichen batam unit"},
+        "kannada": {"native": "ಕಿಚನ್ ಕೆಳ ಘಟಕ", "roman": "kichen kela ghataka"},
+        "malayalam": {"native": "അടുക്കള താഴത്തെ യൂണിറ്റ്", "roman": "adukkala thazhatthe unit"}
+    },
+    "kitchen wall unit": {
+        "hindi": {"native": "किचन वॉल यूनिट, रसोई दीवार इकाई", "roman": "kichen wol unit, rasoi diwar ikai"},
+        "bengali": {"native": "রান্নাঘরের ওয়াল/দেয়াল ইউনিট", "roman": "rannagharer oyal iunit"},
+        "tamil": {"native": "சமையலறை சுவர் அலகு", "roman": "samayalarai suvar alagu"},
+        "telugu": {"native": "కిచెన్ వాల్ యూనిట్", "roman": "kichen wall unit"},
+        "kannada": {"native": "ಕಿಚನ್ ವಾಲ್ ಘಟಕ", "roman": "kichen wall ghataka"},
+        "malayalam": {"native": "അടുക്കള വാൾ യൂണിറ്റ്", "roman": "adukkala wall unit"}
+    },
+    "pantry unit": {
+        "hindi": {"native": "पेंट्री यूनिट", "roman": "paintri unit"},
+        "bengali": {"native": "প্যান্ট্রি ইউনিট", "roman": "paentri iunit"},
+        "tamil": {"native": "சரக்கு அலகு", "roman": "sarakku alagu"},
+        "telugu": {"native": "ప్యాంట్రీ యూనిట్", "roman": "pyaantri unit"},
+        "kannada": {"native": "ಪ್ಯಾಂಟ್ರಿ ಘಟಕ", "roman": "pyantri ghataka"},
+        "malayalam": {"native": "പാന്‍ട്രി യൂണിറ്റ്", "roman": "paantry unit"}
+    },
+    "loft": {
+        "hindi": {"native": "लॉफ्ट, अटारी", "roman": "loft, atari"},
+        "bengali": {"native": "লফট", "roman": "lopht"},
+        "tamil": {"native": "மாடம், கூரை சேமிப்பகம்", "roman": "maadam, kurai semippagam"},
+        "telugu": {"native": "లాఫ్ట్", "roman": "laft"},
+        "kannada": {"native": "ಲೋಫ್ಟ್", "roman": "loft"},
+        "malayalam": {"native": "ലോഫ്റ്റ്", "roman": "loft"}
+    },
+    "utility unit": {
+        "hindi": {"native": "यूटिलिटी यूनिट, उपयोगिता इकाई", "roman": "yutiliti unit, upayogita ikai"},
+        "bengali": {"native": "ইউটিলিটি ইউনিট", "roman": "yutiliti iunit"},
+        "tamil": {"native": "பயன்பாட்டு அலகு", "roman": "payanpaattu alagu"},
+        "telugu": {"native": "యుటిలిటీ యూనిట్", "roman": "yutiliti unit"},
+        "kannada": {"native": "ಯುಟಿಲಿಟಿ ಘಟಕ", "roman": "yutiliti ghataka"},
+        "malayalam": {"native": "യൂട്ടിലിറ്റി യൂണിറ്റ്", "roman": "yutilitti unit"}
+    },
+    "bedroom tv unit base": {
+        "hindi": {"native": "बेडरूम टीवी यूनिट बेस", "roman": "bedroom ti vi unit bes"},
+        "bengali": {"native": "বেডরুম টিভি ইউনিট বেস", "roman": "bedroom tibi iunit bes"},
+        "tamil": {"native": "படுக்கையறை டிவி அடிப்படை அலகு", "roman": "padukkaiyarai tv adippadai alagu"},
+        "telugu": {"native": "బెడ్‌రూమ్ టీవీ యూనిట్ బేస్", "roman": "bedroom tv unit bes"},
+        "kannada": {"native": "ಮಲಗುವ ಕೋಣೆ ಟಿವಿ ಘಟಕ ಬೇಸ್", "roman": "malaguva kone tv ghataka bes"},
+        "malayalam": {"native": "കിടപ്പുമുറി ടിവി യൂണിറ്റ് ബേസ്", "roman": "kidappumuri tv unit bes"}
+    },
+    "bedroom tv unit top": {
+        "hindi": {"native": "बेडरूम टीवी यूनिट टॉप", "roman": "bedroom ti vi unit top"},
+        "bengali": {"native": "বেডরুম টিভি ইউনিট টপ", "roman": "bedroom tibi iunit top"},
+        "tamil": {"native": "படுக்கையறை டிவி மேல் அலகு", "roman": "padukkaiyarai tv mel alagu"},
+        "telugu": {"native": "బెడ్‌రూಮ್ టీవీ యూనిಟ್ టాಪ್", "roman": "bedroom tv unit tap"},
+        "kannada": {"native": "ಮಲಗುವ ಕೋಣೆ ಟಿವಿ ಘಟಕ ಟಾಪ್", "roman": "malaguva kone tv ghataka tap"},
+        "malayalam": {"native": "കിടപ്പുമുറി ടിവി യൂണിറ്റ് ടോപ്പ്", "roman": "kidappumuri tv unit topp"}
+    },
+    "study table": {
+        "hindi": {"native": "स्टडी टेबल, अध्ययन मेज़", "roman": "stadi tebal, adhyayan mez"},
+        "bengali": {"native": "স্টাডি টেবিল", "roman": "stadi tebil"},
+        "tamil": {"native": "படிப்பு மேசை", "roman": "padippu mesai"},
+        "telugu": {"native": "స్టడీ టేబుల్", "roman": "stadi tebul"},
+        "kannada": {"native": "ಸ್ಟಡಿ ಟೇಬಲ್", "roman": "stadi tebal"},
+        "malayalam": {"native": "പഠന മേശ", "roman": "padana mesha"}
+    },
+    "bed, cot": {
+        "hindi": {"native": "बिस्तर, पलंग", "roman": "bistar, palang"},
+        "bengali": {"native": "বিছানা, খাট", "roman": "bichhana, khat"},
+        "tamil": {"native": "கட்டில், படுக்கை", "roman": "kattil, padukkai"},
+        "telugu": {"native": "మంచం, పడక", "roman": "mancham, padaka"},
+        "kannada": {"native": "ಮಂಚ, ಹಾಸಿಗೆ", "roman": "mancha, hasige"},
+        "malayalam": {"native": "കട്ടിൽ, കിടക്ക", "roman": "kattil, kidakka"}
+    },
+    "side table": {
+        "hindi": {"native": "साइड टेबल, बगल की मेज़", "roman": "said tebal, bagal ki mez"},
+        "bengali": {"native": "সাইড টেবিল", "roman": "said tebil"},
+        "tamil": {"native": "பக்க மேசை", "roman": "pakka mesai"},
+        "telugu": {"native": "సైడ్ టేబుల్", "roman": "said tebul"},
+        "kannada": {"native": "ಪಕ್ಕದ ಟೇಬಲ್", "roman": "pakkada tebal"},
+        "malayalam": {"native": "സൈഡ് ടേബിൾ", "roman": "said tebil"}
+    },
+    "wall panelling": {
+        "hindi": {"native": "दीवार पैनलिंग, वॉल पैनलिंग", "roman": "diwar painaling, wol painaling"},
+        "bengali": {"native": "ওয়াল/দেয়াল প্যানেলিং", "roman": "oyal paneling"},
+        "tamil": {"native": "சுவர் பேனலிங்", "roman": "suvar paneling"},
+        "telugu": {"native": "వాల్ ప్యానలింగ్", "roman": "wall paneling"},
+        "kannada": {"native": "ವಾಲ್ ಪ್ಯಾನೆಲಿಂಗ್", "roman": "wall paneling"},
+        "malayalam": {"native": "വാൾ പാനലിംഗ്", "roman": "wall panaling"}
+    },
+    "rafters": {
+        "hindi": {"native": "राफ़्टर्स, छत की बीम", "roman": "rafters, chhat ki bim"},
+        "bengali": {"native": "রাফটার্স", "roman": "raphatars"},
+        "tamil": {"native": "மரக்கட்டைகள், கூரை சட்டங்கள்", "roman": "marakkattaigal, kurai sattangal"},
+        "telugu": {"native": "రాఫ్టర్స్", "roman": "rafters"},
+        "kannada": {"native": "ರಾಫ್ಟರ್ಸ್", "roman": "rafters"},
+        "malayalam": {"native": "റാഫ്റ്ററുകൾ", "roman": "raftarukal"}
+    },
+    "counter - bottom unit": {
+        "hindi": {"native": "काउंटर, निचली इकाई", "roman": "kauntar, nichli ikai"},
+        "bengali": {"native": "কাউন্টার, নীচের ইউনিট", "roman": "kauntar, nicher iunit"},
+        "tamil": {"native": "மேசை, அடிப்படை அலகு", "roman": "mesai, adippadai alagu"},
+        "telugu": {"native": "కౌంటర్, బాటమ్ యూనిట్", "roman": "kauntar, batam unit"},
+        "kannada": {"native": "ಕೌಂಟರ್, ಕೆಳ ಘಟಕ", "roman": "kauntar, kela ghataka"},
+        "malayalam": {"native": "കൗണ്ടർ, താഴത്തെ യൂണിറ്റ്", "roman": "kauntar, thazhatthe unit"}
+    },
+    "storage cabinet": {
+        "hindi": {"native": "स्टोरेज कैबिनेट, भंडारण अलमारी", "roman": "storej kainabinet, bhandaran almari"},
+        "bengali": {"native": "স্টোরেজ ক্যাবিনেট", "roman": "storej kabinet"},
+        "tamil": {"native": "சேமிப்பு பெட்டி", "roman": "semippu petti"},
+        "telugu": {"native": "స్టోరేజ్ క్యాబినెట్", "roman": "storej kabinet"},
+        "kannada": {"native": "ಶೇಖರಣಾ ಕ್ಯಾಬಿನೆಟ್", "roman": "shekharana kabinet"},
+        "malayalam": {"native": "സംഭരണ കാബിനറ്റ്", "roman": "sambharana kabinet"}
+    },
+    "seating - table & chair": {
+        "hindi": {"native": "बैठने की व्यवस्था, मेज़ और कुर्सी", "roman": "baithne ki vyavastha, mez aur kursi"},
+        "bengali": {"native": "বসার ব্যবস্থা, টেবিল ও চেয়ার", "roman": "bosar byabastha, tebil o cheyar"},
+        "tamil": {"native": "அமரும் இடம், மேசை மற்றும் நாற்காலி", "roman": "amarum idam, mesai matrum narkali"},
+        "telugu": {"native": "సీటింగ్, టేబుల్ & కుర్చీ", "roman": "siting, tebul and kurchi"},
+        "kannada": {"native": "ಆಸನ, ಟೇಬಲ್ ಮತ್ತು ಕುರ್ಚಿ", "roman": "aasana, tebal mattu kurchi"},
+        "malayalam": {"native": "ഇരിപ്പിടം, മേശയും കസേരയും", "roman": "irippidam, meshayum kaserayum"}
+    },
+    "painting": {
+        "hindi": {"native": "पेंटिंग, रंगाई", "roman": "panting, rangai"},
+        "bengali": {"native": "রঙ করা", "roman": "rong kara"},
+        "tamil": {"native": "வர்ணம் பூசுதல்", "roman": "varnam pusuthal"},
+        "telugu": {"native": "పెయింటింగ్", "roman": "painting"},
+        "kannada": {"native": "ಚಿತ್ರಕಲೆ, ಬಣ್ಣ ಹಚ್ಚುವುದು", "roman": "chitrakale, banna hachchuvudu"},
+        "malayalam": {"native": "പെയിന്റിംഗ്", "roman": "painting"}
+    },
+    "electrical work": {
+        "hindi": {"native": "बिजली का काम", "roman": "bijli ka kam"},
+        "bengali": {"native": "বৈদ্যুতিক কাজ", "roman": "boidyutik kaj"},
+        "tamil": {"native": "மின் வேலை", "roman": "min velai"},
+        "telugu": {"native": "విద్యుత్ పని", "roman": "vidyut pani"},
+        "kannada": {"native": "ವಿದ್ಯುತ್ ಕೆಲಸ", "roman": "vidyut kelasa"},
+        "malayalam": {"native": "വൈദ്യുതീകരണം, ഇലക്ട്രിക്കൽ വർക്ക്", "roman": "vaidyuthikarana, ilektrikkal varkk"}
+    },
+    "debris removal": {
+        "hindi": {"native": "मलबे को हटाना", "roman": "malbe ko hatana"},
+        "bengali": {"native": "আবর্জনা অপসারণ", "roman": "abarjana opasaran"},
+        "tamil": {"native": "குப்பைகளை அகற்றுதல்", "roman": "kuppaigalai agatruthal"},
+        "telugu": {"native": "శిధిలాల తొలగింపు", "roman": "shidhilala tholagimpu"},
+        "kannada": {"native": "ಶಿಲಾಖಂಡಗಳ ತೆಗೆದುಹಾಕುವಿಕೆ", "roman": "shilakhandagala tegeduhakuvike"},
+        "malayalam": {"native": "ശിഥിലീകരണം നീക്കം ചെയ്യൽ", "roman": "shithilikarana neekkam cheyyal"}
+    },
+    "demolition": {
+        "hindi": {"native": "विध्वंस, तोड़ना", "roman": "vidhvans, todna"},
+        "bengali": {"native": "ধ্বংস", "roman": "dhongso"},
+        "tamil": {"native": "இடித்தல், தகர்த்தல்", "roman": "idiththal, thagarththal"},
+        "telugu": {"native": "కూల్చివేత", "roman": "kulchivetha"},
+        "kannada": {"native": "ಕೆಡವುವಿಕೆ", "roman": "kedavuvike"},
+        "malayalam": {"native": "പൊളിച്ചുനീക്കൽ", "roman": "polichhuneekkal"}
+    },
+    "plumbing works": {
+        "hindi": {"native": "प्लंबिंग का काम", "roman": "plambing ka kam"},
+        "bengali": {"native": "প্লাম্বিং কাজ", "roman": "plambing kaj"},
+        "tamil": {"native": "குழாய் வேலை", "roman": "kuzhai velai"},
+        "telugu": {"native": "ప్లంబింగ్ పనులు", "roman": "plambing panulu"},
+        "kannada": {"native": "ಪ್ಲಂಬಿಂಗ್ ಕೆಲಸ", "roman": "plambing kelasa"},
+        "malayalam": {"native": "പ്ലംബിംഗ് വർക്കുകൾ", "roman": "plambing varkkukal"}
+    },
+    "wooden flooring": {
+        "hindi": {"native": "लकड़ी का फ़र्श", "roman": "lakri ka farsh"},
+        "bengali": {"native": "কাঠের মেঝে", "roman": "kather mejhe"},
+        "tamil": {"native": "மரத் தரை", "roman": "marath tharai"},
+        "telugu": {"native": "చెక్క ఫ్లోరింగ్", "roman": "chekka flooring"},
+        "kannada": {"native": "ಮರದ ನೆಲಹಾಸು", "roman": "marada nelahasu"},
+        "malayalam": {"native": "മരം ഫ്ലോറിംഗ്", "roman": "maram flooring"}
+    },
+    "tiling": {
+        "hindi": {"native": "टाइल लगाना", "roman": "tail lagana"},
+        "bengali": {"native": "টাইলস লাগানো", "roman": "tails lagano"},
+        "tamil": {"native": "ஓடு இடுதல்", "roman": "odu iduthal"},
+        "telugu": {"native": "టైలింగ్", "roman": "tailing"},
+        "kannada": {"native": "ಟೈಲ್ಸ್ ಹಾಕುವುದು", "roman": "tails hakuvudu"},
+        "malayalam": {"native": "ടൈലിംഗ്", "roman": "tailing"}
+    },
+    "counter top installation": {
+        "hindi": {"native": "काउंटर टॉप लगाना", "roman": "kauntar top lagana"},
+        "bengali": {"native": "কাউন্টার টপ ইনস্টলেশন", "roman": "kauntar top instalisen"},
+        "tamil": {"native": "மேசை மேல் நிறுவுதல்", "roman": "mesai mel niruvuthal"},
+        "telugu": {"native": "కౌంటర్ టాప్ ఇన్‌స్టాలేషన్", "roman": "kauntar tap instalation"},
+        "kannada": {"native": "ಕೌಂಟರ್ ಟಾಪ್ ಅಳವಡಿಕೆ", "roman": "kauntar tap alavadike"},
+        "malayalam": {"native": "കൗണ്ടർ ടോപ്പ് ഇൻസ്റ്റലേഷൻ", "roman": "kauntar topp instaleshan"}
+    },
+    "wallpaper": {
+        "hindi": {"native": "वॉलपेपर, कागज़ी दीवार", "roman": "wolpepar, kagazi diwar"},
+        "bengali": {"native": "ওয়ালপেপার", "roman": "oyalpepar"},
+        "tamil": {"native": "சுவர் காகிதம்", "roman": "suvar kaagitham"},
+        "telugu": {"native": "వాల్‌పేపర్", "roman": "valpepar"},
+        "kannada": {"native": "ಗೋಡೆ ಕಾಗದ", "roman": "gode kagada"},
+        "malayalam": {"native": "വാൾപേപ്പർ", "roman": "valpeppar"}
+    },
+    "glass partition": {
+        "hindi": {"native": "कांच का विभाजन", "roman": "kanch ka vibhajan"},
+        "bengali": {"native": "কাঁচের বিভাজন", "roman": "kancher bibhajon"},
+        "tamil": {"native": "கண்ணாடி பிரிப்பான்", "roman": "kannadi pirippaan"},
+        "telugu": {"native": "గ్లాస్ విభజన", "roman": "glas vibhajana"},
+        "kannada": {"native": "ಗಾಜಿನ ವಿಭಜಕ", "roman": "gajina vibhajaka"},
+        "malayalam": {"native": "ഗ്ലാസ് പാർട്ടീഷൻ", "roman": "glas partishan"}
+    },
+    "entrance foyer": {
+        "hindi": {"native": "प्रवेश फ़ोयर, प्रवेश कक्ष", "roman": "pravesh foye, pravesh kaksh"},
+        "bengali": {"native": "প্রবেশিকা ফোয়ার, প্রবেশ কক্ষ", "roman": "probeshika phoyar, probesh kokkho"},
+        "tamil": {"native": "நுழைவாயில் முகப்பு, நுழைவு அறை", "roman": "nuzhaivaayil mugappu, nuzhaivu arai"},
+        "telugu": {"native": "ప్రవేశ ఫోయర్, ప్రవేశ ద్వారం", "roman": "pravesha foye, pravesha dwaram"},
+        "kannada": {"native": "ಪ್ರವೇಶ ದ್ವಾರ, ಪ್ರವೇಶ ಕೋಣೆ", "roman": "pravesha dwara, pravesha kone"},
+        "malayalam": {"native": "പ്രവേശന ഫോയർ", "roman": "praveshana foye"}
+    },
+    "living room": {
+        "hindi": {"native": "बैठक कक्ष, लिविंग रूम", "roman": "baithak kaksh, living rum"},
+        "bengali": {"native": "বসার ঘর, লিভিং রুম", "roman": "bosar ghor, libhing rum"},
+        "tamil": {"native": "வரவேற்பு அறை", "roman": "varavelpu arai"},
+        "telugu": {"native": "లివింగ్ రూమ్", "roman": "living rum"},
+        "kannada": {"native": "ವಾಸದ ಕೋಣೆ, ಲಿವಿಂಗ್ ರೂಮ್", "roman": "vasada kone, living rum"},
+        "malayalam": {"native": "സ്വീകരണ മുറി, ലിവിംഗ് റൂം", "roman": "svikarana muri, living rum"}
+    },
+    "dining room": {
+        "hindi": {"native": "भोजन कक्ष, डाइनिंग रूम", "roman": "bhojan kaksh, daining rum"},
+        "bengali": {"native": "খাবার ঘর, ডাইনিং রুম", "roman": "khabar ghor, daining rum"},
+        "tamil": {"native": "உணவு அருந்தும் அறை", "roman": "unavu arunthum arai"},
+        "telugu": {"native": "డైనింగ్ రూమ్", "roman": "daining rum"},
+        "kannada": {"native": "ಊಟದ ಕೋಣೆ, ಡೈನಿಂಗ್ ರೂಮ್", "roman": "utada kone, daining rum"},
+        "malayalam": {"native": "ഭക്ഷണ മുറി, ഡൈനിംഗ് റൂം", "roman": "bhakshana muri, daining rum"}
+    },
+    "kitchen": {
+        "hindi": {"native": "रसोई घर, किचन", "roman": "rasoi ghar, kichen"},
+        "bengali": {"native": "রান্নাঘর, কিচেন", "roman": "rannaghar, kichen"},
+        "tamil": {"native": "சமையலறை, கிச்சன்", "roman": "samayalarai, kichchan"},
+        "telugu": {"native": "వంటగది, కిచెన్", "roman": "vantagadi, kichen"},
+        "kannada": {"native": "ಅಡುಗೆ ಮನೆ, ಕಿಚನ್", "roman": "aduge mane, kichen"},
+        "malayalam": {"native": "അടുക്കള, കിച്ചൺ", "roman": "adukkala, kichchan"}
+    },
+    "bed room": {
+        "hindi": {"native": "शयन कक्ष, बेडरूम", "roman": "shayan kaksh, bedrum"},
+        "bengali": {"native": "শোবার ঘর, বেডরুম", "roman": "shobar ghar, bedrum"},
+        "tamil": {"native": "படுக்கை அறை", "roman": "padukkai arai"},
+        "telugu": {"native": "పడుకగది, బెడ్ రూమ్", "roman": "padukagadi, bed rum"},
+        "kannada": {"native": "ಮಲಗುವ ಕೋಣೆ, ಬೆಡ್ ರೂಮ್", "roman": "malaguva kone, bed rum"},
+        "malayalam": {"native": "കിടപ്പുമുറി, ബെഡ് റൂം", "roman": "kidappumuri, bed rum"}
+    },
+    "bathroom": {
+        "hindi": {"native": "स्नान घर, बाथरूम", "roman": "snan ghar, bathroom"},
+        "bengali": {"native": "বাথরুম", "roman": "bathroom"},
+        "tamil": {"native": "குளியலறை", "roman": "kuliyalarai"},
+        "telugu": {"native": "బాత్రూమ్", "roman": "batrum"},
+        "kannada": {"native": "ಸ್ನಾನದ ಕೋಣೆ, ಬಾತ್ ರೂಮ್", "roman": "snanada kone, bath rum"},
+        "malayalam": {"native": "കുളിമുറി, ബാത്ത്റൂം", "roman": "kulimuri, bathroom"}
+    },
+    "labour only": {
+        "hindi": {"native": "केवल श्रम, लेबर ओनली", "roman": "keval shram, lebar onli"},
+        "bengali": {"native": "শুধুমাত্র শ্রম, লেবার অনলি", "roman": "shudhumatra shram, lebar onli"},
+        "tamil": {"native": "சிரமம் மட்டும்", "roman": "shiramam mattum"},
+        "telugu": {"native": "కేవలం శ్రమ", "roman": "kevalam shrama"},
+        "kannada": {"native": "ಕೇವಲ ಕಾರ್ಮಿಕ", "roman": "kevala karmika"},
+        "malayalam": {"native": "തൊഴിൽ മാത്രം", "roman": "tozhil matram"}
+    },
+    "utility": {
+        "hindi": {"native": "उपयोगिता, यूटिलिटी", "roman": "upayogita, yutiliti"},
+        "bengali": {"native": "ইউটিলিটি", "roman": "yutiliti"},
+        "tamil": {"native": "பயன்பாட்டு அறை", "roman": "payanpaattu arai"},
+        "telugu": {"native": "యుటిలిటీ", "roman": "yutiliti"},
+        "kannada": {"native": "ಉಪಯುಕ್ತತೆ, ಯುಟಿಲಿಟಿ", "roman": "upayuktate, yutiliti"},
+        "malayalam": {"native": "യൂട്ടിലിറ്റി", "roman": "yutilitti"}
+    },
+    "balcony": {
+        "hindi": {"native": "बालकनी", "roman": "balakani"},
+        "bengali": {"native": "বারান্দা, ব্যালকনি", "roman": "baranda, byalakani"},
+        "tamil": {"native": "பால்கனி", "roman": "palkkani"},
+        "telugu": {"native": "బాల్కనీ", "roman": "balkani"},
+        "kannada": {"native": "ಬಾಲ್ಕನಿ", "roman": "balkani"},
+        "malayalam": {"native": "ബാൽക്കണി", "roman": "balkkani"}
+    },
+    "other services": {
+        "hindi": {"native": "अन्य सेवाएं", "roman": "anya sevaen"},
+        "bengali": {"native": "অন্যান্য পরিষেবা", "roman": "anyanya porisheba"},
+        "tamil": {"native": "பிற சேவைகள்", "roman": "pira sevaigal"},
+        "telugu": {"native": "ఇతర సేవలు", "roman": "itara sevalu"},
+        "kannada": {"native": "ಇತರ ಸೇವೆಗಳು", "roman": "itara sevegalu"},
+        "malayalam": {"native": "മറ്റുള്ള സേവനങ്ങൾ", "roman": "matrulla sevanangal"}
+    },
+    "puja unit": {
+        "hindi": {"native": "पूजा इकाई, पूजा घर", "roman": "puja ikai, puja ghar"},
+        "bengali": {"native": "পূজা ইউনিট", "roman": "puja iunit"},
+        "tamil": {"native": "பூஜை அலகு", "roman": "pujai alagu"},
+        "telugu": {"native": "పూజ యూనిట్", "roman": "puja unit"},
+        "kannada": {"native": "ಪೂಜಾ ಘಟಕ", "roman": "puja ghataka"},
+        "malayalam": {"native": "പൂജാ യൂണിറ്റ്", "roman": "puja unit"}
+    },
+    "pooja ghar": {
+        "hindi": {"native": "पूजा घर, मंदिर", "roman": "puja ghar, mandir"},
+        "bengali": {"native": "পূজা ঘর", "roman": "puja ghor"},
+        "tamil": {"native": "பூஜை அறை", "roman": "pujai arai"},
+        "telugu": {"native": "పూజ గది", "roman": "puja gadi"},
+        "kannada": {"native": "ಪೂಜಾ ಮಂದಿರ", "roman": "puja mandira"},
+        "malayalam": {"native": "പൂജാ മുറി, അമ്പലം", "roman": "puja muri, ambalam"}
+    },
+    "staircase": {
+        "hindi": {"native": "सीढ़ी, जीना", "roman": "sidhi, jina"},
+        "bengali": {"native": "সিঁড়ি", "roman": "sinri"},
+        "tamil": {"native": "மாடிப்படி", "roman": "madippadi"},
+        "telugu": {"native": "మెట్లు", "roman": "metlu"},
+        "kannada": {"native": "ಮೆಟ್ಟಿಲು", "roman": "mettila"},
+        "malayalam": {"native": "കോണിപ്പടി", "roman": "konippadi"}
+    },
+    "mdf flooring": {
+        "hindi": {"native": "एमडीएफ फ़र्श", "roman": "emdief farsh"},
+        "bengali": {"native": "এমডিএফ ফ্লোরিং", "roman": "emdief phloring"},
+        "tamil": {"native": "எம்டிஎஃப் தரையமைப்பு", "roman": "emtief tharaiyamaippu"},
+        "telugu": {"native": "ఎమ్‌డీఎఫ్ ఫ్లోరింగ్", "roman": "emdief floring"},
+        "kannada": {"native": "ಎಂಡಿಎಫ್ ನೆಲಹಾಸು", "roman": "endief nelahasu"},
+        "malayalam": {"native": "എംഡിഎഫ് ഫ്ലോറിംഗ്", "roman": "emdief floring"}
+    },
+    "store room": {
+        "hindi": {"native": "भंडारण कक्ष, स्टोर रूम", "roman": "bhandaran kaksh, stor rum"},
+        "bengali": {"native": "স্টোর রুম, গুদাম ঘর", "roman": "stor rum, gudam ghor"},
+        "tamil": {"native": "சேமிப்பு அறை", "roman": "semippu arai"},
+        "telugu": {"native": "స్టోర్ రూమ్", "roman": "stor rum"},
+        "kannada": {"native": "ಸ್ಟೋರ್ ರೂಮ್, ದಾಸ್ತಾನು ಕೋಣೆ", "roman": "stor rum, dastanu kone"},
+        "malayalam": {"native": "സ്റ്റോർ റൂം, സാധനങ്ങൾ വെക്കുന്ന മുറി", "roman": "stor rum, sadhanannal vekkunna muri"}
+    },
+    "fallceling renovation": {
+        "hindi": {"native": "फ़ॉल्स सीलिंग नवीनीकरण", "roman": "fols siling navinikaran"},
+        "bengali": {"native": "ফলস সিলিং সংস্কার", "roman": "phols siling samskar"},
+        "tamil": {"native": "போலி கூரை புதுப்பித்தல்", "roman": "poli kurai puthuppiththal"},
+        "telugu": {"native": "ఫాల్స్ సీలింగ్ పునరుద్ధరణ", "roman": "fals siling punaruddharana"},
+        "kannada": {"native": "ಸುಳ್ಳು ಸೀಲಿಂಗ್ ನವೀಕರಣ", "roman": "sullu siling navikarana"},
+        "malayalam": {"native": "ഫാൾസ് സീലിംഗ് നവീകരണം", "roman": "fals siling navikarana"}
+    },
+    "terrace hall": {
+        "hindi": {"native": "छत का हॉल, टेरेस हॉल", "roman": "chhat ka hol, teres hol"},
+        "bengali": {"native": "টেরেস হল", "roman": "teres hol"},
+        "tamil": {"native": "மாடி கூடம்", "roman": "madi kudam"},
+        "telugu": {"native": "టెర్రస్ హాల్", "roman": "terras hal"},
+        "kannada": {"native": "ಮೊಗಸಾಲೆ ಹಾಲ್", "roman": "mogasale hal"},
+        "malayalam": {"native": "ടെറസ് ഹാൾ", "roman": "teras hal"}
+    },
+    "room cupboard": {
+        "hindi": {"native": "कमरे की अलमारी", "roman": "kamre ki alamari"},
+        "bengali": {"native": "রুম আলমারি, ঘরের ক্যাবিনেট", "roman": "rum almari, ghorer kabinet"},
+        "tamil": {"native": "அறை அலமாரி", "roman": "arai alamari"},
+        "telugu": {"native": "రూమ్ అల్మారా", "roman": "rum almara"},
+        "kannada": {"native": "ಕೋಣೆಯ ಕಪಾಟು", "roman": "koneya kapatu"},
+        "malayalam": {"native": "റൂം അലമാര", "roman": "rum alamara"}
+    },
+    "wooden rack": {
+        "hindi": {"native": "लकड़ी का रैक", "roman": "lakri ka raik"},
+        "bengali": {"native": "কাঠের র্যাক", "roman": "kather rek"},
+        "tamil": {"native": "மர அடுக்கு", "roman": "mara adukku"},
+        "telugu": {"native": "చెక్క ర్యాక్", "roman": "chekka gyak"},
+        "kannada": {"native": "ಮರದ ರ್ಯಾಕ್", "roman": "marada gyak"},
+        "malayalam": {"native": "മരം റാക്ക്", "roman": "maram rakk"}
+    },
+    "wooden single": {
+        "hindi": {"native": "लकड़ी का सिंगल बेड, लकड़ी की अकेली इकाई", "roman": "lakri ka singal bed, lakri ki akeli ikai"},
+        "bengali": {"native": "কাঠের সিঙ্গেল ইউনিট", "roman": "kather singel iunit"},
+        "tamil": {"native": "மர ஒற்றை அலகு", "roman": "mara ottrai alagu"},
+        "telugu": {"native": "చెక్క సింగిల్ యూనిట్", "roman": "chekka singil unit"},
+        "kannada": {"native": "ಮರದ ಸಿಂಗಲ್ ಘಟಕ", "roman": "marada singal ghataka"},
+        "malayalam": {"native": "മരം സിംഗിൾ യൂണിറ്റ്", "roman": "maram singil yunitt"}
+    },
+    "wooden led light": {
+        "hindi": {"native": "लकड़ी की एलईडी लाइट", "roman": "lakri ki elidi lait"},
+        "bengali": {"native": "কাঠের এলইডি লাইট", "roman": "kather elidi lait"},
+        "tamil": {"native": "மர எல்இடி விளக்கு", "roman": "mara elidi vilakku"},
+        "telugu": {"native": "చెక్క ఎల్‌ఈడీ లైట్", "roman": "chekka elidi lait"},
+        "kannada": {"native": "ಮರದ ಎಲ್ಇಡಿ ದೀಪ", "roman": "marada elidi dipa"},
+        "malayalam": {"native": "മരം എൽഇഡി ലൈറ്റ്", "roman": "maram elidi lait"}
+    },
+    "wooden jacket stand": {
+        "hindi": {"native": "लकड़ी का कोट स्टैंड, जैकेट टांगने का स्टैंड", "roman": "lakri ka kot stand, jaiket tangane ka stand"},
+        "bengali": {"native": "কাঠের জ্যাকেট স্ট্যান্ড, কোট হ্যাঙ্গার", "roman": "kather jyaket stand, kot hyangar"},
+        "tamil": {"native": "மர கோட் தாங்கி", "roman": "mara kot thangi"},
+        "telugu": {"native": "చెక్క జాకెట్ స్టాండ్", "roman": "chekka jaket stand"},
+        "kannada": {"native": "ಮರದ ಜಾಕೆಟ್ ಸ್ಟ್ಯಾಂಡ್, ಕೋಟ್ ಸ್ಟ್ಯಾಂಡ್", "roman": "marada jyaket stand, kot stand"},
+        "malayalam": {"native": "മരം ജാക്കറ്റ് സ്റ്റാൻഡ്, കോട്ട് സ്റ്റാൻഡ്", "roman": "maram jakkatta stand, kott stand"}
+    },
+    "wooden center aej slop": {
+        "hindi": {"native": "लकड़ी का केंद्र स्लॉट, लकड़ी का मध्य ढलान", "roman": "lakri ka kendra slot, lakri ka madhya dhalan"},
+        "bengali": {"native": "কাঠের সেন্টার স্লট", "roman": "kather sentar slot"},
+        "tamil": {"native": "மர மைய விளிம்பு சாய்வு", "roman": "mara maiya vilimpu sayvu"},
+        "telugu": {"native": "చెక్క సెంటర్ స్లోಪ್", "roman": "chekka sentar slop"},
+        "kannada": {"native": "ಮರದ ಸೆಂಟರ್ ಇಳಿಜಾರು", "roman": "marada sentar ilijaru"},
+        "malayalam": {"native": "മരം സെന്റർ ചെരിവ്", "roman": "maram sentar cheriv"}
+    },
+    "alteration work wooden": {
+        "hindi": {"native": "लकड़ी का बदलाव कार्य, लकड़ी में फेरबदल", "roman": "lakri ka badlav karya, lakri men ferabadal"},
+        "bengali": {"native": "কাঠের পরিবর্তন কাজ", "roman": "kather poribartan kaj"},
+        "tamil": {"native": "மர மாற்ற வேலை", "roman": "mara matra velai"},
+        "telugu": {"native": "చెక్క మార్పు పని", "roman": "chekka marpu pani"},
+        "kannada": {"native": "ಮರದ ಮಾರ್ಪಾಡು ಕೆಲಸ", "roman": "marada marpadu kelasa"},
+        "malayalam": {"native": "മരം മാറ്റം വരുത്തുന്ന ജോലി", "roman": "maram mattam varuththunna joli"}
+    },
+    "passage": {
+        "hindi": {"native": "गलियारा, मार्ग", "roman": "galiyara, marg"},
+        "bengali": {"native": "প্যাসেজ, করিডর", "roman": "pyasej, koridar"},
+        "tamil": {"native": "வழி, நடைபாதை", "roman": "vazhi, nadaipadhai"},
+        "telugu": {"native": "దార, మార్గం", "roman": "dara, margam"},
+        "kannada": {"native": "ಹಾದಿ, ಕಾರಿಡಾರ್", "roman": "hadi, karidar"},
+        "malayalam": {"native": "വഴി, ഇടനാഴി", "roman": "vazhi, idanazhi"}
+    },
+    "powder room": {
+        "hindi": {"native": "पाउडर रूम, छोटा स्नानघर", "roman": "paudar rum, chhota snanaghar"},
+        "bengali": {"native": "পাউডার রুম", "roman": "paudar rum"},
+        "tamil": {"native": "சிறிய கழிவறை", "roman": "siriya kazhivarai"},
+        "telugu": {"native": "పౌడర్ రూమ్", "roman": "paudar rum"},
+        "kannada": {"native": "ಪೌಡರ್ ರೂಮ್", "roman": "paudar rum"},
+        "malayalam": {"native": "പൗഡർ റൂം, ചെറിയ കുളിമുറി", "roman": "paudar rum, cheriya kulimuri"}
+    },
+    "wall paper": {
+        "hindi": {"native": "वॉलपेपर", "roman": "volpepar"},
+        "bengali": {"native": "ওয়ালপেপার", "roman": "oyalpepar"},
+        "tamil": {"native": "சுவர் காகிதம்", "roman": "suvar kagitham"},
+        "telugu": {"native": "వాల్‌పేపర్", "roman": "valpepar"},
+        "kannada": {"native": "ಗೋಡೆ ಕಾಗದ", "roman": "gode kagada"},
+        "malayalam": {"native": "വാൾപേപ്പർ", "roman": "valpeppar"}
+    },
+    "granite": {
+        "hindi": {"native": "ग्रेनाइट", "roman": "granait"},
+        "bengali": {"native": "গ্রানাইট", "roman": "granait"},
+        "tamil": {"native": "கிரானைட்", "roman": "giranit"},
+        "telugu": {"native": "గ్రానైట్", "roman": "granait"},
+        "kannada": {"native": "ಗ್ರಾನೈಟ್", "roman": "granait"},
+        "malayalam": {"native": "ഗ്രാനൈറ്റ്", "roman": "granaitr"}
+    },
+    "wall demolition": {
+        "hindi": {"native": "दीवार तोड़ना, दीवार विध्वंस", "roman": "diwar torna, diwar vidhvans"},
+        "bengali": {"native": "দেয়াল ভাঙা, ওয়াল/দেয়াল ডেমোলিশন", "roman": "deyal bhanga, oyal demolishan"},
+        "tamil": {"native": "சுவர் இடித்தல்", "roman": "suvar idiththal"},
+        "telugu": {"native": "వాల్ కూల్చివేత", "roman": "wall kulchiveta"},
+        "kannada": {"native": "ಗೋಡೆ ಕೆಡವುವಿಕೆ", "roman": "gode kedavuvike"},
+        "malayalam": {"native": "ചുമര് പൊളിച്ചുനീക്കൽ", "roman": "chumar polichhunikkal"}
+    },
+    "upvc balcony": {
+        "hindi": {"native": "यूपीवीसी बालकनी", "roman": "yupivisi balakani"},
+        "bengali": {"native": "ইউপিভিসি ব্যালকনি", "roman": "yupibhisi byalakani"},
+        "tamil": {"native": "யுபிவிசி பால்கனி", "roman": "yupivisi palkkani"},
+        "telugu": {"native": "యూపీవీసీ బాల్కనీ", "roman": "yupivisi balkani"},
+        "kannada": {"native": "ಯುಪಿವಿಸಿ ಬಾಲ್ಕನಿ", "roman": "yupivisi balkani"},
+        "malayalam": {"native": "യുപിവിസി ബാൽക്കണി", "roman": "yupivisi balkkani"}
+    },
+    "upvc living": {
+        "hindi": {"native": "यूपीवीसी लिविंग रूम की फिटिंग", "roman": "yupivisi living rum ki fiting"},
+        "bengali": {"native": "ইউপিভিসি লিভিং রুমের কাজ", "roman": "yupibhisi libhing rumer kaj"},
+        "tamil": {"native": "யுபிவிசி வரவேற்பறை", "roman": "yupivisi varavelparai"},
+        "telugu": {"native": "యూపీవీసీ లివింగ్", "roman": "yupivisi living"},
+        "kannada": {"native": "ಯುಪಿವಿಸಿ ಲಿವಿಂಗ್ ಕೋಣೆ", "roman": "yupivisi living kone"},
+        "malayalam": {"native": "യുപിവിസി ലിവിംഗ് റൂം", "roman": "yupivisi living rum"}
+    },
+    "custom room": {
+        "hindi": {"native": "कस्टम रूम, मनपसंद कमरा", "roman": "kastam rum, manapasand kamara"},
+        "bengali": {"native": "কাস্টম রুম", "roman": "kastam rum"},
+        "tamil": {"native": "தனிப்பயன் அறை", "roman": "thanippayan arai"},
+        "telugu": {"native": "కస్టమ్ రూమ్", "roman": "kastam rum"},
+        "kannada": {"native": "ಕಸ್ಟಮ್ ಕೋಣೆ", "roman": "kastam kone"},
+        "malayalam": {"native": "കസ്റ്റം റൂം", "roman": "kastam rum"}
+    },
+    "kids room": {
+        "hindi": {"native": "बच्चों का कमरा", "roman": "bachchon ka kamara"},
+        "bengali": {"native": "বাচ্চাদের ঘর", "roman": "bachchader ghor"},
+        "tamil": {"native": "குழந்தைகள் அறை", "roman": "kuzhandhaigal arai"},
+        "telugu": {"native": "పిల్లల గది", "roman": "pillala gadi"},
+        "kannada": {"native": "ಮಕ್ಕಳ ಕೋಣೆ", "roman": "makkala kone"},
+        "malayalam": {"native": "കുട്ടികളുടെ മുറി", "roman": "kuttikalude muri"}
+    },
+    "kitchen loft": {
+        "hindi": {"native": "किचन लॉफ्ट, रसोई का ऊपरी भंडारण", "roman": "kichen loft, rasoi ka upari bhandaran"},
+        "bengali": {"native": "রান্নাঘরের লফট", "roman": "rannagharer loft"},
+        "tamil": {"native": "சமையலறை மாடம்", "roman": "samayalarai madam"},
+        "telugu": {"native": "కిచెన్ లాఫ్ట్", "roman": "kichen loft"},
+        "kannada": {"native": "ಅಡುಗೆಮನೆ ಲೋಫ್ಟ್", "roman": "adugemane loft"},
+        "malayalam": {"native": "അടുക്കള ലോഫ്റ്റ്", "roman": "adukkala loft"}
+    },
+    "showroom": {
+        "hindi": {"native": "शोरूम, प्रदर्शन कक्ष", "roman": "shorum, pradarshan kaksh"},
+        "bengali": {"native": "শোরুম", "roman": "shorum"},
+        "tamil": {"native": "காட்சி அறை", "roman": "kaatchi arai"},
+        "telugu": {"native": "షోరూమ్", "roman": "shorum"},
+        "kannada": {"native": "ಪ್ರದರ್ಶನ ಕೊಠಡಿ, ಶೋರೂಂ", "roman": "pradarshana kothadi, shorum"},
+        "malayalam": {"native": "ഷോറൂം", "roman": "shorum"}
+    },
+    "wpvc door": {
+        "hindi": {"native": "डब्ल्यूपीवीसी दरवाज़ा", "roman": "dabalyupivisi daravaza"},
+        "bengali": {"native": "ডাব্লুপিভিসি দরজা", "roman": "dablupi bhisi daraja"},
+        "tamil": {"native": "டபிள்யூபிவிசி கதவு", "roman": "dabiluyupivisi kathavu"},
+        "telugu": {"native": "డబ్ల్యూపీవీసీ తలుపు", "roman": "dabalyupivisi talupu"},
+        "kannada": {"native": "ಡಬ್ಲ್ಯೂಪಿವಿಸಿ ಬಾಗಿಲು", "roman": "dabalyupivisi bagilu"},
+        "malayalam": {"native": "ഡബ്ല്യുപിവിസി വാതിൽ", "roman": "dabalyupivisi vathil"}
+    },
+    "8mm glass": {
+        "hindi": {"native": "8मिमी कांच", "roman": "ath mimi kanch"},
+        "bengali": {"native": "৮ মিমি কাঁচ", "roman": "ath mimi kanch"},
+        "tamil": {"native": "8 மிமீ கண்ணாடி", "roman": "ettu mimi kannadi"},
+        "telugu": {"native": "8ఎంఎం గ్లాస్", "roman": "ememm glas"},
+        "kannada": {"native": "8ಎಂಎಂ ಗಾಜು", "roman": "ettu ememm gaju"},
+        "malayalam": {"native": "8എംഎം ഗ്ലാസ്", "roman": "ettu ememm glas"}
+    },
+    "glass shelf booth rooms": {
+        "hindi": {"native": "ग्लास शेल्फ बूथ रूम", "roman": "glas shelph buth rum"},
+        "bengali": {"native": "কাঁচের শেল্ফ বুথ রুম", "roman": "kancher shelph buth rum"},
+        "tamil": {"native": "கண்ணாடி அடுக்கு சாவடி அறைகள்", "roman": "kannadi adukku savadi araigal"},
+        "telugu": {"native": "గ్లాస్ షెల్ఫ్ బూత్ రూమ్స్", "roman": "glas shelph buth rums"},
+        "kannada": {"native": "ಗಾಜಿನ ಶೆಲ್ಫ್ ಬೂತ್ ಕೋಣೆಗಳು", "roman": "gajina shelph buth konegalu"},
+        "malayalam": {"native": "ഗ്ലാസ് ഷെൽഫ് ബൂത്ത് റൂം", "roman": "glas shelph buth rum"}
+    },
+    "office room": {
+        "hindi": {"native": "दफ़्तर का कमरा, ऑफिस रूम", "roman": "daftar ka kamara, ophis rum"},
+        "bengali": {"native": "অফিস রুম", "roman": "ophis rum"},
+        "tamil": {"native": "அலுவலக அறை", "roman": "aluvalaka arai"},
+        "telugu": {"native": "ఆఫీస్ రూమ్", "roman": "aphis rum"},
+        "kannada": {"native": "ಕಚೇರಿ ಕೋಣೆ, ಆಫೀಸ್ ರೂಮ್", "roman": "kacheri kone, aphis rum"},
+        "malayalam": {"native": "ഓഫീസ് മുറി", "roman": "ophis muri"}
+    },
+    "top floor": {
+        "hindi": {"native": "सबसे ऊपरी मंज़िल", "roman": "sabase upari manzil"},
+        "bengali": {"native": "টপ ফ্লোর, উপরের তলা", "roman": "tap phlor, uparer tala"},
+        "tamil": {"native": "மேல் தளம்", "roman": "mel thalam"},
+        "telugu": {"native": "పై అంతస్తు", "roman": "pai antastu"},
+        "kannada": {"native": "ಮೇಲಿನ ಮಹಡಿ", "roman": "melina mahadi"},
+        "malayalam": {"native": "മുകളിലത്തെ നില", "roman": "mukalilatte nila"}
+    },
+    "wall digine louvers": {
+        "hindi": {"native": "वॉल डिज़ाइन लूवर्स", "roman": "wol dizain luvars"},
+        "bengali": {"native": "ওয়াল/দেয়াল ডিজাইন লুভার্স", "roman": "oyal dijain lubhars"},
+        "tamil": {"native": "சுவர் வடிவமைப்பு பலகைகள்", "roman": "suvar vadivamaippu palagaigal"},
+        "telugu": {"native": "వాల్ డిజైన్ లౌవర్స్", "roman": "wall dijain lauvas"},
+        "kannada": {"native": "ಗೋಡೆ ವಿನ್ಯಾಸದ ಲು ವರ್ಸ್", "roman": "gode vinyasada lu vars"},
+        "malayalam": {"native": "ചുമര് ഡിസൈൻ ലൂവറുകൾ", "roman": "chumar disain luvarukal"}
+    },
+    "bed ka kushans": {
+        "hindi": {"native": "बिस्तर के कुशन, गद्दा", "roman": "bistar ke kushan, gadda"},
+        "bengali": {"native": "বেডের কুশন", "roman": "beder kushan"},
+        "tamil": {"native": "படுக்கை மெத்தை, குஷன்", "roman": "padukkai meththai, kushan"},
+        "telugu": {"native": "బెడ్ కుషన్స్", "roman": "bed kushans"},
+        "kannada": {"native": "ಹಾಸಿಗೆಯ ಕುಶನ್", "roman": "hasigeya kushan"},
+        "malayalam": {"native": "കിടക്ക കുഷ്യൻ", "roman": "kidakka kushyan"}
+    },
+    "additional work": {
+        "hindi": {"native": "अतिरिक्त कार्य", "roman": "atirikta karya"},
+        "bengali": {"native": "অতিরিক্ত কাজ", "roman": "otirikto kaj"},
+        "tamil": {"native": "கூடுதல் வேலை", "roman": "kududhal velai"},
+        "telugu": {"native": "అదనపు పని", "roman": "adanapu pani"},
+        "kannada": {"native": "ಹೆಚ್ಚುವರಿ ಕೆಲಸ", "roman": "hechchuvari kelasa"},
+        "malayalam": {"native": "അധിക ജോലി", "roman": "adhika joli"}
+    },
+    "villas": {
+        "hindi": {"native": "विला", "roman": "vila"},
+        "bengali": {"native": "ভিলা", "roman": "bhila"},
+        "tamil": {"native": "வில்லாக்கள்", "roman": "villakkal"},
+        "telugu": {"native": "విల్లాస్", "roman": "villas"},
+        "kannada": {"native": "ವಿಲ್ಲಾಗಳು", "roman": "villagalu"},
+        "malayalam": {"native": "വില്ലകൾ", "roman": "villakal"}
+    },
+    "entry door": {
+        "hindi": {"native": "प्रवेश द्वार", "roman": "pravesh dvar"},
+        "bengali": {"native": "প্রবেশের দরজা", "roman": "probesher daraja"},
+        "tamil": {"native": "நுழைவு கதவு", "roman": "nuzhaivu kathavu"},
+        "telugu": {"native": "ప్రవేశ ద్వారం", "roman": "pravesha dvaram"},
+        "kannada": {"native": "ಪ್ರವೇಶ ದ್ವಾರ", "roman": "pravesha dvara"},
+        "malayalam": {"native": "പ്രവേശന വാതിൽ", "roman": "praveshana vathil"}
+    },
+    "parking storage": {
+        "hindi": {"native": "पार्किंग स्टोरेज, वाहन भंडारण", "roman": "parking storej, vahan bhandaran"},
+        "bengali": {"native": "পার্কিং স্টোরেজ", "roman": "parking storej"},
+        "tamil": {"native": "வாகனம் நிறுத்தும் சேமிப்பு", "roman": "vaganam niruththum semippu"},
+        "telugu": {"native": "పార్కింగ్ స్టోరేజ్", "roman": "parking storej"},
+        "kannada": {"native": "ಪಾರ್ಕಿಂಗ್ ಸಂಗ್ರಹಣೆ", "roman": "parking sangrahane"},
+        "malayalam": {"native": "പാർക്കിംഗ് സ്റ്റോറേജ്", "roman": "parkking storej"}
+    },
+    "kitchen center unit": {
+        "hindi": {"native": "किचन सेंटर यूनिट, रसोई मध्य इकाई", "roman": "kichen sentar unit, rasoi madhya ikai"},
+        "bengali": {"native": "কিচেন সেন্টার ইউনিট, আইল্যান্ড", "roman": "kichen sentar iunit, ailand"},
+        "tamil": {"native": "சமையலறை மைய அலகு", "roman": "samayalarai maiya alagu"},
+        "telugu": {"native": "కిచెన్ సెంటర్ యూనిట్", "roman": "kichen sentar unit"},
+        "kannada": {"native": "ಕಿಚನ್ ಸೆಂಟರ್ ಘಟಕ", "roman": "kichen sentar ghataka"},
+        "malayalam": {"native": "അടുക്കള സെന്റർ യൂണിറ്റ്", "roman": "adukkala sentar yunitt"}
+    },
+    "kitchen top unit": {
+        "hindi": {"native": "किचन टॉप यूनिट, रसोई ऊपरी इकाई", "roman": "kichen top unit, rasoi upari ikai"},
+        "bengali": {"native": "কিচেন টप ইউনিট", "roman": "kichen tap iunit"},
+        "tamil": {"native": "சமையலறை மேல் அலகு", "roman": "samayalarai mel alagu"},
+        "telugu": {"native": "కిచెన్ టాప్ యూనిట్", "roman": "kichen tap unit"},
+        "kannada": {"native": "ಕಿಚನ್ ಟಾಪ್ ಘಟಕ", "roman": "kichen tap ghataka"},
+        "malayalam": {"native": "അടുക്കള ടോപ്പ് യൂണിറ്റ്", "roman": "adukkala topp yunitt"}
+    },
+    "paint quotation": {
+        "hindi": {"native": "पेंट का कोटेशन, रंगाई का अनुमान", "roman": "pant ka kotesan, rangai ka anuman"},
+        "bengali": {"native": "পেইন্ট কোটেশন", "roman": "peint kotesan"},
+        "tamil": {"native": "வர்ணம் பூச்சு விலை பட்டியல்", "roman": "varnam puchchu vilai pattiyal"},
+        "telugu": {"native": "పెయింట్ కోటేషన్", "roman": "paint kotesan"},
+        "kannada": {"native": "ಪೇಂಟ್ ಕೋಟೇಶನ್", "roman": "pent kotesan"},
+        "malayalam": {"native": "പെയിന്റ് ക്വട്ടേഷൻ", "roman": "peint kvattesan"}
+    },
+    "netlon": {
+        "hindi": {"native": "नेटलॉन, जाली", "roman": "netlon, jali"},
+        "bengali": {"native": "নেটলন", "roman": "netlon"},
+        "tamil": {"native": "நெட்லான்", "roman": "netlan"},
+        "telugu": {"native": "నెట్లన్", "roman": "netlan"},
+        "kannada": {"native": "ನೆಟ್‌ಲಾನ್", "roman": "netlan"},
+        "malayalam": {"native": "നെറ്റ്ലോൺ", "roman": "netlon"}
+    },
+    "full alignment work": {
+        "hindi": {"native": "पूर्ण संरेखण कार्य", "roman": "purn sanrekhan karya"},
+        "bengali": {"native": "পূর্ণ সারিবদ্ধতার কাজ", "roman": "purn sharibaddhatar kaj"},
+        "tamil": {"native": "முழு சீரமைப்பு வேலை", "roman": "muzhuh siramaippu velai"},
+        "telugu": {"native": "పూర్తి అలైన్‌మెంట్ పని", "roman": "purti alainment pani"},
+        "kannada": {"native": "ಸಂಪೂರ್ಣ ಜೋಡಣೆ ಕೆಲಸ", "roman": "sampurna jodane kelasa"},
+        "malayalam": {"native": "മുഴുവൻ വിന്യാസ ജോലി", "roman": "muzhuvann vinyasa joli"}
+    },
+    "washing machine": {
+        "hindi": {"native": "वॉशिंग मशीन की जगह", "roman": "vashing mashin ki jagah"},
+        "bengali": {"native": "ওয়াশিং মেশিন", "roman": "oyashing mesin"},
+        "tamil": {"native": "சலவை இயந்திரம்", "roman": "salavai iyandhiram"},
+        "telugu": {"native": "వాషింగ్ మెషిన్", "roman": "vashing mesin"},
+        "kannada": {"native": "ವಾಷಿಂಗ್ ಮೆಷಿನ್", "roman": "vashing mesin"},
+        "malayalam": {"native": "വാഷിംഗ് മെഷീൻ", "roman": "vashing mesin"}
+    },
+    "doctor room": {
+        "hindi": {"native": "डॉक्टर का कमरा, क्लिनिक", "roman": "doktar ka kamara, klinika"},
+        "bengali": {"native": "ডাক্তারের চেম্বার", "roman": "dakbarer chembar"},
+        "tamil": {"native": "மருத்துவர் அறை", "roman": "maruththuvar arai"},
+        "telugu": {"native": "డాక్టర్ రూమ్", "roman": "daktar rum"},
+        "kannada": {"native": "ವೈದ್ಯರ ಕೋಣೆ", "roman": "vaidyara kone"},
+        "malayalam": {"native": "ഡോക്ടറുടെ മുറി", "roman": "doktarude muri"}
+    },
+    "floor tile": {
+        "hindi": {"native": "फ़र्श की टाइल", "roman": "farsh ki tail"},
+        "bengali": {"native": "ফ্লোর টাইল", "roman": "phlor tail"},
+        "tamil": {"native": "தரை ஓடு", "roman": "tharai odu"},
+        "telugu": {"native": "ఫ్లోర్ టైల్", "roman": "flor tail"},
+        "kannada": {"native": "ನೆಲದ ಟೈಲ್", "roman": "nelada tail"},
+        "malayalam": {"native": "ഫ്ലോർ ടൈൽ", "roman": "flor tail"}
+    },
+    "office area carpet": {
+        "hindi": {"native": "ऑफिस क्षेत्र का कालीन", "roman": "ophis kshetra ka kalin"},
+        "bengali": {"native": "অফিস এলাকার কার্পেট", "roman": "ophis elakar karpet"},
+        "tamil": {"native": "அலுவலக பகுதி தரை விரிப்பு", "roman": "aluvalaka paguthi tharai virippu"},
+        "telugu": {"native": "ఆఫీస్ ఏరియా కార్పెట్", "roman": "aphis eriya karpet"},
+        "kannada": {"native": "ಕಚೇರಿ ಪ್ರದೇಶದ ಕಾರ್ಪೆಟ್", "roman": "kacheri pradesada karpet"},
+        "malayalam": {"native": "ഓഫീസ് ഏരിയ കാർപെറ്റ്", "roman": "ophis eriya karpet"}
+    },
+    "home theatre room": {
+        "hindi": {"native": "होम थिएटर रूम", "roman": "hom thiyetar rum"},
+        "bengali": {"native": "হোম থিয়েটার রুম", "roman": "hom thiyetar rum"},
+        "tamil": {"native": "வீட்டு திரையரங்க அறை", "roman": "vittu thiraiyaranga arai"},
+        "telugu": {"native": "హోమ్ థియేటర్ రూమ్", "roman": "hom thiyetar rum"},
+        "kannada": {"native": "ಹೋಮ್ ಥಿಯೇಟರ್ ಕೋಣೆ", "roman": "hom thiyetar kone"},
+        "malayalam": {"native": "ഹോം തിയേറ്റർ റൂം", "roman": "hom thiyetar rum"}
+    },
+    "troly": {
+        "hindi": {"native": "ट्रॉली", "roman": "troli"},
+        "bengali": {"native": "ট্রলি", "roman": "troli"},
+        "tamil": {"native": "தள்ளுவண்டி", "roman": "thalluvandi"},
+        "telugu": {"native": "ట్రాలీ", "roman": "trali"},
+        "kannada": {"native": "ಟ್ರಾಲೀ", "roman": "trali"},
+        "malayalam": {"native": "ട്രോളി", "roman": "troli"}
+    },
+    "bar partition": {
+        "hindi": {"native": "बार का विभाजन", "roman": "bar ka vibhajana"},
+        "bengali": {"native": "বার পার্টিশন", "roman": "bar partishan"},
+        "tamil": {"native": "பார் பிரிப்பான்", "roman": "bar pirippan"},
+        "telugu": {"native": "బార్ విభజన", "roman": "bar vibhajana"},
+        "kannada": {"native": "ಬಾರ್ ವಿಭಜಕ", "roman": "bar vibhajaka"},
+        "malayalam": {"native": "ബാർ പാർട്ടീഷൻ", "roman": "bar parttisan"}
+    },
+    "lcd panel": {
+        "hindi": {"native": "एलसीडी पैनल", "roman": "el si di painal"},
+        "bengali": {"native": "এলসিডি প্যানেল", "roman": "elsidi pyanel"},
+        "tamil": {"native": "எல்சிடி குழு", "roman": "elsidi kuzhu"},
+        "telugu": {"native": "ఎల్‌సీడీ ప్యానెల్", "roman": "elsidi pyanel"},
+        "kannada": {"native": "ಎಲ್ಸಿಡಿ ಫಲಕ", "roman": "elsidi phalaka"},
+        "malayalam": {"native": "എൽസിഡി പാനൽ", "roman": "elsidi panal"}
+    },
+    "metre box, meter box": {
+        "hindi": {"native": "मीटर बॉक्स", "roman": "mitar boks"},
+        "bengali": {"native": "মিটার বক্স", "roman": "mitar bokso"},
+        "tamil": {"native": "மீட்டர் பெட்டி", "roman": "mittar petti"},
+        "telugu": {"native": "మీటర్ బాక్స్", "roman": "mitar baks"},
+        "kannada": {"native": "ಮೀಟರ್ ಬಾಕ್ಸ್", "roman": "mitar baks"},
+        "malayalam": {"native": "മീറ്റർ ബോക്സ്", "roman": "mittar boks"}
+    },
+    "gaust room": {
+        "hindi": {"native": "मेहमानों का कमरा, गेस्ट रूम", "roman": "mehamanon ka kamara, gest rum"},
+        "bengali": {"native": "গেস্ট রুম", "roman": "gest rum"},
+        "tamil": {"native": "விருந்தினர் அறை", "roman": "virundhinar arai"},
+        "telugu": {"native": "గెస్ట్ రూమ్", "roman": "gest rum"},
+        "kannada": {"native": "ಅತಿಥಿ ಕೋಣೆ", "roman": "atithi kone"},
+        "malayalam": {"native": "അതിഥി മുറി", "roman": "athithi muri"}
+    },
+    "mastr bed room cubor": {
+        "hindi": {"native": "मास्टर बेडरूम की अलमारी", "roman": "mastar bedrum ki alamari"},
+        "bengali": {"native": "মাস্টার বেডরুমের আলমারি", "roman": "mastar bedrumer almari"},
+        "tamil": {"native": "முதன்மை படுக்கையறை அலமாரி", "roman": "muthalmai padukkaiyarai alamari"},
+        "telugu": {"native": "మాస్టర్ బెడ్‌రూమ్ అల్మారా", "roman": "mastar bedrum almara"},
+        "kannada": {"native": "ಮಾಸ್ಟರ್ ಬೆಡ್‌ರೂಮ್ ಕಪಾಟು", "roman": "mastar bedrum kapatu"},
+        "malayalam": {"native": "മാസ്റ്റർ ബെഡ്റൂം കബോർഡ്", "roman": "mastar bedrum kabord"}
+    },
+    "2nd floor room, 1st floor room": {
+        "hindi": {"native": "दूसरी मंज़िल का कमरा, पहली मंज़िल का कमरा", "roman": "dusari manzil ka kamara, pahli manzil ka kamara"},
+        "bengali": {"native": "২য় তলার রুম, ১ম তলার রুম", "roman": "dvitiyo talar rum, prathama talar rum"},
+        "tamil": {"native": "2வது தள அறை, 1வது தள அறை", "roman": "irandavathu thala arai, onravathu thala arai"},
+        "telugu": {"native": "2వ అంతస్తు గది, 1వ అంతస్తు గది", "roman": "rendava antastu gadi, okatava antastu gadi"},
+        "kannada": {"native": "2ನೇ ಮಹಡಿ ಕೋಣೆ, 1ನೇ ಮಹಡಿ ಕೋಣೆ", "roman": "eradanemahadi kone, ondanemahadi kone"},
+        "malayalam": {"native": "2-ാം നിലയിലെ മുറി, 1-ാം നിലയിലെ മുറി", "roman": "randam nilayile muri, onnam nilayile muri"}
+    },
+    "bathroom civil work": {
+        "hindi": {"native": "बाथरूम का सिविल काम", "roman": "bathroom ka sivil kam"},
+        "bengali": {"native": "বাথরুমের সিভিল কাজ", "roman": "bathrumer sibil kaj"},
+        "tamil": {"native": "குளியலறை சிவில் வேலை", "roman": "kuliyalarai sivil velai"},
+        "telugu": {"native": "బాత్రూమ్ సివిల్ పని", "roman": "bathrum sivil pani"},
+        "kannada": {"native": "ಬಾತ್ರೂಮ್ ಸಿವಿಲ್ ಕೆಲಸ", "roman": "bathrum sivil kelasa"},
+        "malayalam": {"native": "ബാത്ത്റൂം സിവിൽ ജോലി", "roman": "bathrum sivil joli"}
+    },
+    "side table kids": {
+        "hindi": {"native": "बच्चों का साइड टेबल", "roman": "bachchon ka said tebal"},
+        "bengali": {"native": "বাচ্চাদের সাইড টেবিল", "roman": "bachchader said tebil"},
+        "tamil": {"native": "குழந்தைகள் பக்க மேசை", "roman": "kuzhandhaigal pakka mesai"},
+        "telugu": {"native": "పిల్లల సైడ్ టేబుల్", "roman": "pillala said tebul"},
+        "kannada": {"native": "ಮಕ್ಕಳ ಸೈಡ್ ಟೇಬಲ್", "roman": "makkala said tebal"},
+        "malayalam": {"native": "കുട്ടികളുടെ സൈഡ് ടേബിൾ", "roman": "kuttikalude said tebil"}
+    },
+    "balcony celling": {
+        "hindi": {"native": "बालकनी की छत, बालकनी सीलिंग", "roman": "balakani ki chhat, balakani siling"},
+        "bengali": {"native": "ব্যালকনি সিলিং", "roman": "byalakani siling"},
+        "tamil": {"native": "பால்கனி கூரை", "roman": "palkkani kurai"},
+        "telugu": {"native": "బాల్కనీ సీలింగ్", "roman": "balkani siling"},
+        "kannada": {"native": "ಬಾಲ್ಕನಿ ಸೀಲಿಂಗ್", "roman": "balkani siling"},
+        "malayalam": {"native": "ബാൽക്കണി സീലിംഗ്", "roman": "balkkani siling"}
+    },
+    "children badroom": {
+        "hindi": {"native": "बच्चों का शयन कक्ष", "roman": "bachchon ka shayan kaksh"},
+        "bengali": {"native": "শিশুদের বেডরুম", "roman": "shishuder bedrum"},
+        "tamil": {"native": "குழந்தைகள் படுக்கையறை", "roman": "kuzhandhaigal padukkaiyarai"},
+        "telugu": {"native": "పిల్లల బెడ్‌రూమ్", "roman": "pillala bedrum"},
+        "kannada": {"native": "ಮಕ್ಕಳ ಮಲಗುವ ಕೋಣೆ", "roman": "makkala malaguva kone"},
+        "malayalam": {"native": "കുട്ടികളുടെ കിടപ്പുമുറി", "roman": "kuttikalude kidappumuri"}
+    },
+    "daining areya crocar": {
+        "hindi": {"native": "डाइनिंग एरिया क्रॉकरी यूनिट", "roman": "daining eriya krokari unit"},
+        "bengali": {"native": "ডাইনিং এরিয়া ক্রোকারি", "roman": "daining eriya krokari"},
+        "tamil": {"native": "உணவு பகுதி பாத்திர அலகு", "roman": "unavu paguthi paththira alagu"},
+        "telugu": {"native": "డైనింగ్ ఏరియా క్రాకరీ", "roman": "daining eriya krakari"},
+        "kannada": {"native": "ಊಟದ ಪ್ರದೇಶದ ಕ್ರೋಕರಿ", "roman": "utada pradesada krokari"},
+        "malayalam": {"native": "ഡൈനിംഗ് ഏരിയ ക്രോക്കറി", "roman": "daining eriya krokari"}
+    },
+    "tiles and stone work": {
+        "hindi": {"native": "टाइल और पत्थर का काम", "roman": "tail aur patthar ka kam"},
+        "bengali": {"native": "টাইলস এবং পাথরের কাজ", "roman": "tails ebam pathorer kaj"},
+        "tamil": {"native": "ஓடு மற்றும் கல் வேலை", "roman": "odu matrum kal velai"},
+        "telugu": {"native": "టైల్స్ మరియు రాతి పని", "roman": "tails mariyu rati pani"},
+        "kannada": {"native": "ಟೈಲ್ಸ್ ಮತ್ತು ಕಲ್ಲಿನ ಕೆಲಸ", "roman": "tails mattu kallina kelasa"},
+        "malayalam": {"native": "ടൈൽസ് കല്ല് പണി", "roman": "tails kallu pani"}
+    },
+    "artch": {
+        "hindi": {"native": "मेहराब, आर्च", "roman": "mehrab, arch"},
+        "bengali": {"native": "আর্চ", "roman": "arch"},
+        "tamil": {"native": "வளைவு", "roman": "valaivu"},
+        "telugu": {"native": "ఆర్చ్", "roman": "arch"},
+        "kannada": {"native": "ಕಮಾನು", "roman": "kamanu"},
+        "malayalam": {"native": "കമാനം, ആർച്ച്", "roman": "kamanam, arch"}
+    },
+    "protection": {
+        "hindi": {"native": "सुरक्षा, बचाव", "roman": "suraksha, bachav"},
+        "bengali": {"native": "সুরক্ষা", "roman": "shurokkha"},
+        "tamil": {"native": "பாதுகாப்பு", "roman": "padhukappu"},
+        "telugu": {"native": "రక్షణ", "roman": "rakshana"},
+        "kannada": {"native": "ರಕ್ಷಣೆ", "roman": "rakshane"},
+        "malayalam": {"native": "സംരക്ഷണം", "roman": "samrakshanam"}
+    },
+        "rate": {
+            "hindi": {"native": "दर, भाव", "roman": "dar, bhav"},
+            "bengali": {"native": "দর, হার", "roman": "dar, har"},
+            "tamil": {"native": "விகிதம், வீதம்", "roman": "vigitham, vitham"},
+            "telugu": {"native": "రేటు, ధర", "roman": "ratu, dhara"},
+            "kannada": {"native": "ದರ, ಬೆಲೆ", "roman": "dara, bele"},
+            "malayalam": {"native": "നിരക്ക്, അളവ്", "roman": "nirakk, alav"}
+        },
+        "rate per sqft": {
+            "hindi": {"native": "प्रति वर्ग फुट दर", "roman": "prati varg phut dar"},
+            "bengali": {"native": "প্রতি বর্গফুট দর", "roman": "prati borgofut dar"},
+            "tamil": {"native": "சதுர அடிக்கு விகிதம்", "roman": "sathura adikku vigitham"},
+            "telugu": {"native": "చదరపు అడుగుకు రేటు", "roman": "chadarapu aduguku ratu"},
+            "kannada": {"native": "ಪ್ರತಿ ಚದರ ಅಡಿಗೆ ದರ", "roman": "prati chadara adige dara"},
+            "malayalam": {"native": "ചതുരശ്ര അടിക്ക് നിരക്ക്", "roman": "chathurasra adikku nirakk"}
+        },
+        "quantity": {
+            "hindi": {"native": "मात्रा, परिमाण", "roman": "matra, pariman"},
+            "bengali": {"native": "পরিমাণ, জোগান", "roman": "poriman, jogan"},
+            "tamil": {"native": "அளவு, தொகை", "roman": "alavu, thogai"},
+            "telugu": {"native": "పరిమాణం, మొత్తం", "roman": "parimanam, moththam"},
+            "kannada": {"native": "ಪ್ರಮಾಣ, ಮೊತ್ತ", "roman": "pramana, mottha"},
+            "malayalam": {"native": "അളവ്, തൂക്കം", "roman": "alav, thukkam"}
+        },
+        "price/unit": {
+            "hindi": {"native": "मूल्य/इकाई", "roman": "moolya/ikai"},
+            "bengali": {"native": "দাম/ইউনিট", "roman": "dam/iunit"},
+            "tamil": {"native": "விலை/அலகு", "roman": "vilai/alagu"},
+            "telugu": {"native": "ధర/యూనిట్", "roman": "dhara/unit"},
+            "kannada": {"native": "ಬೆಲೆ/ಘಟಕ", "roman": "bele/ghataka"},
+            "malayalam": {"native": "വില/യൂണിറ്റ്", "roman": "vila/unit"}
+        },
+        "price": {
+            "hindi": {"native": "कीमत, मूल्य, दाम", "roman": "kimat, moolya, daam"},
+            "bengali": {"native": "দাম, মূল্য", "roman": "dam, mulya"},
+            "tamil": {"native": "விலை, மதிப்பு", "roman": "vilai, mathippu"},
+            "telugu": {"native": "ధర, వెల", "roman": "dhara, vela"},
+            "kannada": {"native": "ಬೆಲೆ, ಮೌಲ್ಯ", "roman": "bele, maulya"},
+            "malayalam": {"native": "വില, വിലനിലവാരം", "roman": "vila, vilanilavaram"}
+        },
+        "measurement": {
+            "hindi": {"native": "माप, नाप, அளவீடு", "roman": "map, nap, alavidu"},
+            "bengali": {"native": "পরিমাপ, মাপন", "roman": "porimap, mapon"},
+            "tamil": {"native": "அளவீடு, கணியம்", "roman": "alavidu, kaniyam"},
+            "telugu": {"native": "కొలత, కొలమానం", "roman": "kolatha, kolamanam"},
+            "kannada": {"native": "ಅಳತೆ, ಮಾಪನ", "roman": "alathe, mapana"},
+            "malayalam": {"native": "അളവ്, അളക്കൽ", "roman": "alav, alakkal"}
+        },
+        "material": {
+            "hindi": {"native": "सामग्री, माल, पदार्थ", "roman": "samagri, mal, padarth"},
+            "bengali": {"native": "উপাদান, মাল", "roman": "upadan, mal"},
+            "tamil": {"native": "பொருள், மூலப்பொருள்", "roman": "porul, mulapporul"},
+            "telugu": {"native": "సామగ్రి, వస్తువు", "roman": "samagri, vasthuvu"},
+            "kannada": {"native": "ಸಾಮಗ್ರಿ, ವಸ್ತು", "roman": "samagri, vastu"},
+            "malayalam": {"native": "സാമഗ്രി, വസ്തു", "roman": "samagri, vasthu"}
+        },
+        "finish": {
+            "hindi": {"native": "फ़िनिश, अंतिम रूप, समाप्ति", "roman": "finish, antim roop, samapti"},
+            "bengali": {"native": "ফিনিশ, সমাপ্তি", "roman": "finish, samapti"},
+            "tamil": {"native": "பூச்சு, இறுதிநிலை", "roman": "puchchu, iruthinilai"},
+            "telugu": {"native": "ముగింపు, పూర్తి", "roman": "mugimpu, purti"},
+            "kannada": {"native": "ಮುಕ್ತಾಯ, ಪೂರ್ಣಗೊಳಿಸು", "roman": "muktaya, purnagolisu"},
+            "malayalam": {"native": "ഫിനിഷ്, പൂർത്തിയാക്കൽ", "roman": "finish, purthiyakkal"}
+        },
+        "description": {
+            "hindi": {"native": "विवरण, वर्णन", "roman": "vivaran, varnan"},
+            "bengali": {"native": "বিবরণ, বর্ণনা", "roman": "bibaran, bornona"},
+            "tamil": {"native": "விளக்கம், விவரம்", "roman": "vilakkam, vivaram"},
+            "telugu": {"native": "వివరణ, వర్ణన", "roman": "vivarana, varnana"},
+            "kannada": {"native": "ವಿವರಣೆ, ವರ್ಣನೆ", "roman": "vivarane, varnane"},
+            "malayalam": {"native": "വിവരണം, വർണ്ണന", "roman": "vivaranam, varnnana"}
+        },
+        "brand": {
+            "hindi": {"native": "ब्रांड, नाम", "roman": "brand, naam"},
+            "bengali": {"native": "ব্র্যান্ড, মার্কা", "roman": "bryand, marka"},
+            "tamil": {"native": "பிராண்ட், வணிகப்பெயர்", "roman": "birand, vanigappeyar"},
+            "telugu": {"native": "బ్రాండ్, గుర్తు", "roman": "brand, gurtu"},
+            "kannada": {"native": "ಬ್ರಾಂಡ್, ಗುರುತು", "roman": "brand, guruthu"},
+            "malayalam": {"native": "ബ്രാൻഡ്, മുദ്ര", "roman": "brand, mudra"}
+        }
+    }
