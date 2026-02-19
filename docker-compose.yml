@@ -12,8 +12,8 @@ services:
       # Single source: used by scripts, APIs, and services throughout the project
       - APP_ENVIRONMENT=${env:-local}
       # SSH-tunnel MySQL (opt-in). Mount the pem key below.
-      - ENABLE_SSH_TUNNEL=1
-      - SSH_PKEY_PATH=/run/secrets/shared-key.pem
+      - ENABLE_SSH_TUNNEL=${ENABLE_SSH_TUNNEL:-1}
+      - SSH_PKEY_PATH=${SSH_PKEY_PATH:-/run/secrets/shared-key.pem}
       # Timeout (seconds) for auth and data-fetch HTTP requests. Default 600 (10 min) for large payloads.
       - API_REQUEST_TIMEOUT=${API_REQUEST_TIMEOUT:-600}
       # For env=local in Docker: container → host MySQL (Mac/Windows: host.docker.internal)
@@ -22,9 +22,10 @@ services:
       - API_HOST_OVERRIDE=${API_HOST_OVERRIDE:-http://host.docker.internal:8000}
 
     volumes:
-      - /Users/chayanchakraborty/Downloads/shared-key.pem:/run/secrets/shared-key.pem:ro
+      #/Users/devserver/scripts/server_scripts/jumphost/prod-db-jump-host.pem:/run/secrets/shared-key.pem:ro
+      - /Users/chayanchakraborty/Downloads/prod-jump-host.pem:/run/secrets/shared-key.pem:ro
       # Share backend/resources on host with /app/resources in container
-      - /Users/chayanchakraborty/Documents/python_new_dir/Estimator-Items-Analytics/backend/resources:/app/resources
+      # /Users/chayanchakraborty/Documents/python_new_dir/Estimator-Items-Analytics/backend/resources:/app/resources
     ports:
       - "8090:8090"
 

@@ -1,16 +1,18 @@
 import requests
-from utils.constants import number, get_bootstrap_headers, get_api_url, get_default_otp, API_REQUEST_TIMEOUT
+from utils.constants import get_auth_config, get_bootstrap_headers, get_api_url, get_default_otp, API_REQUEST_TIMEOUT
 from utils.utils import _extract_token_from_response
 
+
 def generate_auth_token(environment_name):
+    auth_config = get_auth_config(environment_name)
     payload = {
-        "username": str(number)
+        "username": str(auth_config["number"])
     }
     try:
         response = requests.post(
             get_api_url(environment_name, "genrate_auth_url"),
             json=payload,
-            headers=get_bootstrap_headers(number),
+            headers=get_bootstrap_headers(environment_name=environment_name),
             timeout=API_REQUEST_TIMEOUT,
         )
         if not response.ok:
@@ -32,16 +34,18 @@ def generate_auth_token(environment_name):
         print(e)
         raise e
 
+
 def verify_otp(environment_name, otp):
+    auth_config = get_auth_config(environment_name)
     payload = {
-        "username": str(number),
+        "username": str(auth_config["number"]),
         "otp": otp
     }
     try:
         response = requests.post(
             get_api_url(environment_name, "verify_otp"),
             json=payload,
-            headers=get_bootstrap_headers(number),
+            headers=get_bootstrap_headers(environment_name=environment_name),
             timeout=API_REQUEST_TIMEOUT,
         )
         if not response.ok:
@@ -55,6 +59,9 @@ def verify_otp(environment_name, otp):
         print(e)
         raise e
 
+
 def get_auth_token(environment_name):
-    generate_auth_token(environment_name)   
-    return verify_otp(environment_name, get_default_otp())
+    auth_config = get_auth_config(environment_name)
+    return auth_config["token"]
+    # generate_auth_token(environment_name)
+    # return verify_otp(environment_name, get_default_otp())

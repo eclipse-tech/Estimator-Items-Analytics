@@ -10,9 +10,7 @@ import re
 from utils.constants import (
     get_headers,
     get_api_url,
-    user_id,
-    org_id,
-    number,
+    get_auth_config,
     qdrant,
     COLLECTION_NAME_BRAHMA,
     COLLECTION_NAME_VISHANTI,
@@ -69,8 +67,13 @@ def fetch_estimator_items(environment_name: str) -> EstimatorResponseDTO:
     """
     print("method fetch_estimator_items called")
     try:
-        headers = get_headers(get_auth_token(
-            environment_name), user_id, org_id, number)
+        auth_config = get_auth_config(environment_name)
+        headers = get_headers(
+            get_auth_token(environment_name),
+            auth_config["user_id"],
+            auth_config["org_id"],
+            auth_config["number"]
+        )
         response = requests.get(
             get_api_url(environment_name, "fetch_estimator_items"),
             headers=headers,
@@ -473,6 +476,7 @@ def _fuzzy_match_token_to_items(token_norm: str, index: dict, cutoff: float = 0.
 
     return matches
 
+
 def extract_items_with_identifiers_from_query_fuzzy(
     query: str,
     fuzzy_cutoff: float = 0.68,
@@ -491,10 +495,8 @@ def extract_items_with_identifiers_from_query_fuzzy(
         s = re.sub(r"(.)\1+", r"\1", s)
         return s
 
-
     def similarity(a: str, b: str) -> float:
         return difflib.SequenceMatcher(None, a, b).ratio()
-
 
     # ---------------- LOAD DATA ---------------- #
 
@@ -511,7 +513,8 @@ def extract_items_with_identifiers_from_query_fuzzy(
 
     all_item_names = set(index.values())
 
-    tokens = [normalize(t) for t in query.replace(",", " ").split() if t.strip()]
+    tokens = [normalize(t)
+              for t in query.replace(",", " ").split() if t.strip()]
     if not tokens:
         return ExtractItemsWithIdentifiersResponseDTO(data=[])
 
@@ -532,7 +535,6 @@ def extract_items_with_identifiers_from_query_fuzzy(
             return exact_matches
     except Exception:
         pass
-
 
     # =====================================================
     # 2️⃣ FUZZY PHRASE MATCH
@@ -561,7 +563,6 @@ def extract_items_with_identifiers_from_query_fuzzy(
                 for item in sorted(best_items)
             ]
         )
-
 
     # =====================================================
     # 3️⃣ TOKEN LEVEL MATCHING WITH SCORING
@@ -601,14 +602,12 @@ def extract_items_with_identifiers_from_query_fuzzy(
             if score >= fuzzy_cutoff:
                 item_scores[item] = max(score, item_scores.get(item, 0))
 
-
         # ---------- canonical name match ---------- #
         for item in all_item_names:
             item_norm = normalize(item)
 
             if token in item_norm:
                 item_scores[item] = max(0.92, item_scores.get(item, 0))
-
 
         # ---------- native / roman variants ---------- #
         for item_name, langs in items_full.items():
@@ -633,7 +632,6 @@ def extract_items_with_identifiers_from_query_fuzzy(
                             item_scores.get(item_name, 0),
                         )
 
-
     # =====================================================
     # 4️⃣ FILTER LOW CONFIDENCE MATCHES
     # =====================================================
@@ -649,13 +647,11 @@ def extract_items_with_identifiers_from_query_fuzzy(
         if score >= best_score * 0.7
     ]
 
-
     # =====================================================
     # 5️⃣ SORT BY SCORE
     # =====================================================
 
     filtered_items.sort(key=lambda x: (-item_scores[x], x))
-
 
     # =====================================================
     # 6️⃣ BUILD RESPONSE
@@ -670,7 +666,6 @@ def extract_items_with_identifiers_from_query_fuzzy(
             for item in filtered_items
         ]
     )
-
 
 
 def add_item_to_items_with_identifiers(item_payload: dict) -> dict:
@@ -710,7 +705,7 @@ def add_item_to_items_with_identifiers(item_payload: dict) -> dict:
         raise ValueError("itemName is required and cannot be empty")
 
     file_path = get_items_with_identifiers_path()
-    
+
     # Load existing data
     data = {}
     if os.path.isfile(file_path):
@@ -739,7 +734,7 @@ def add_item_to_items_with_identifiers(item_payload: dict) -> dict:
 
     # Invalidate caches so next request reloads
     invalidate_items_caches()
-    
+
     return {"ok": True, "itemName": item_name}
 
 
@@ -879,7 +874,8 @@ def fetch_items_view(
                     rate_str = attrs_parsed.get("Rate per Sqft", "").strip()
                     try:
                         # Try to extract number from strings like "1200 sqft" or just "1200"
-                        rate = float(rate_str.split()[0]) if ' ' in rate_str else float(rate_str)
+                        rate = float(rate_str.split()[
+                                     0]) if ' ' in rate_str else float(rate_str)
                         if rate > 0:
                             price_type = "Per Sqft"
                             normalized_price = rate
@@ -891,7 +887,8 @@ def fetch_items_view(
                     rate_str = attrs_parsed.get("Rate", "").strip()
                     try:
                         # Try to extract number from strings like "1200" or "1200 sqft"
-                        rate = float(rate_str.split()[0]) if ' ' in rate_str else float(rate_str)
+                        rate = float(rate_str.split()[
+                                     0]) if ' ' in rate_str else float(rate_str)
                         if rate > 0:
                             price_type = "Per Sqft"
                             normalized_price = rate
@@ -908,7 +905,8 @@ def fetch_items_view(
                 qty_str = attrs_parsed.get("Quantity", "").strip()
                 try:
                     # Try to extract number from strings like "5" or "5 units"
-                    qty = float(qty_str.split()[0]) if ' ' in qty_str else float(qty_str)
+                    qty = float(qty_str.split()[
+                                0]) if ' ' in qty_str else float(qty_str)
                     if qty > 0:
                         price_type = "Per Unit"
                         normalized_price = amount / qty
@@ -924,7 +922,8 @@ def fetch_items_view(
                     "itemName": p.get("item_name") or "",
                     "itemTypeIdentifier": p.get("item_type_identifier") or "",
                     "image": img,
-                    "areaGroups": {},  # (area, price_type) -> [normalized_prices...]
+                    # (area, price_type) -> [normalized_prices...]
+                    "areaGroups": {},
                 }
 
             entry = per_item[identifier]
@@ -936,7 +935,8 @@ def fetch_items_view(
                 entry["itemTypeIdentifier"] = item_type
             if entry["image"] is None and p.get("image"):
                 img = p.get("image")
-                entry["image"] = img["default"] if isinstance(img, dict) and "default" in img else img
+                entry["image"] = img["default"] if isinstance(
+                    img, dict) and "default" in img else img
 
             area_key = (area, price_type)
             groups = entry["areaGroups"]
@@ -991,24 +991,24 @@ def fetch_items_view_by_city(
 ) -> list[VishantiAggregatedItemDTO]:
     """
     Build a consolidated view of Vishanti items filtered by city.
-    
+
     Similar to fetch_items_view but:
     - Accepts multiple item identifiers
     - Filters results by specified city
-    
+
     Args:
         item_identifiers: List of item identifier strings to fetch
         city: City name to filter by (will be normalized for matching)
-    
+
     Returns:
         list[VishantiAggregatedItemDTO]: Items with areaStats filtered to the specified city
     """
     if not item_identifiers:
         return []
-    
+
     # Normalize the requested city for matching
     normalized_city = normalize_city_name(city) if city else None
-    
+
     per_item: dict[str, dict] = {}
     offset = None
 
@@ -1039,14 +1039,14 @@ def fetch_items_view_by_city(
             area_raw = (p.get("area") or "").strip()
             if not area_raw:
                 continue
-            
+
             # Normalize city name to handle typos/variations
             area = normalize_city_name(area_raw)
-            
+
             # If city filter is specified, skip records not matching
             if normalized_city and area.lower() != normalized_city.lower():
                 continue
-            
+
             amount = float(p.get("amount") or 0)
             if amount <= 0:
                 continue
@@ -1068,7 +1068,8 @@ def fetch_items_view_by_city(
                 if "Rate per Sqft" in attrs_parsed:
                     rate_str = attrs_parsed.get("Rate per Sqft", "").strip()
                     try:
-                        rate = float(rate_str.split()[0]) if ' ' in rate_str else float(rate_str)
+                        rate = float(rate_str.split()[
+                                     0]) if ' ' in rate_str else float(rate_str)
                         if rate > 0:
                             price_type = "Per Sqft"
                             normalized_price = rate
@@ -1079,7 +1080,8 @@ def fetch_items_view_by_city(
                 elif "Rate" in attrs_parsed:
                     rate_str = attrs_parsed.get("Rate", "").strip()
                     try:
-                        rate = float(rate_str.split()[0]) if ' ' in rate_str else float(rate_str)
+                        rate = float(rate_str.split()[
+                                     0]) if ' ' in rate_str else float(rate_str)
                         if rate > 0:
                             price_type = "Per Sqft"
                             normalized_price = rate
@@ -1095,7 +1097,8 @@ def fetch_items_view_by_city(
             elif not rate_found and attrs_parsed and "Quantity" in attrs_parsed:
                 qty_str = attrs_parsed.get("Quantity", "").strip()
                 try:
-                    qty = float(qty_str.split()[0]) if ' ' in qty_str else float(qty_str)
+                    qty = float(qty_str.split()[
+                                0]) if ' ' in qty_str else float(qty_str)
                     if qty > 0:
                         price_type = "Per Unit"
                         normalized_price = amount / qty
@@ -1110,7 +1113,8 @@ def fetch_items_view_by_city(
                     "itemName": p.get("item_name") or "",
                     "itemTypeIdentifier": p.get("item_type_identifier") or "",
                     "image": img,
-                    "areaGroups": {},  # (area, price_type) -> [normalized_prices...]
+                    # (area, price_type) -> [normalized_prices...]
+                    "areaGroups": {},
                 }
 
             entry = per_item[identifier]
@@ -1122,7 +1126,8 @@ def fetch_items_view_by_city(
                 entry["itemTypeIdentifier"] = item_type
             if entry["image"] is None and p.get("image"):
                 img = p.get("image")
-                entry["image"] = img["default"] if isinstance(img, dict) and "default" in img else img
+                entry["image"] = img["default"] if isinstance(
+                    img, dict) and "default" in img else img
 
             area_key = (area, price_type)
             groups = entry["areaGroups"]
