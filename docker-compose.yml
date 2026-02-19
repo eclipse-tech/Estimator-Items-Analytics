@@ -22,8 +22,8 @@ services:
       - API_HOST_OVERRIDE=${API_HOST_OVERRIDE:-http://host.docker.internal:8000}
 
     volumes:
-      #/Users/devserver/scripts/server_scripts/jumphost/prod-db-jump-host.pem:/run/secrets/shared-key.pem:ro
-      - /Users/chayanchakraborty/Downloads/prod-jump-host.pem:/run/secrets/shared-key.pem:ro
+      - /Users/devserver/scripts/server_scripts/jumphost/prod-db-jump-host.pem:/run/secrets/shared-key.pem:ro
+      #- /Users/chayanchakraborty/Downloads/prod-jump-host.pem:/run/secrets/shared-key.pem:ro
       # Share backend/resources on host with /app/resources in container
       # /Users/chayanchakraborty/Documents/python_new_dir/Estimator-Items-Analytics/backend/resources:/app/resources
     ports:
