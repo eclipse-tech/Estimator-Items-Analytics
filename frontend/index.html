@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Estimator Item Search</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+    rel="stylesheet" />
   <style>
     :root {
       --bg: #0f1419;
@@ -212,9 +215,11 @@
     .status[data-kind="ok"] {
       border-color: rgba(34, 197, 94, 0.5);
     }
+
     .status[data-kind="error"] {
       border-color: rgba(239, 68, 68, 0.6);
     }
+
     .status[data-kind="info"] {
       border-color: rgba(59, 130, 246, 0.5);
     }
@@ -224,17 +229,20 @@
       width: 100%;
       max-width: 900px;
     }
+
     .results-title {
       font-size: 1rem;
       font-weight: 600;
       color: var(--text-muted);
       margin-bottom: 16px;
     }
+
     .results-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       gap: 16px;
     }
+
     .item-card {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -243,10 +251,12 @@
       transition: border-color 0.2s, box-shadow 0.2s;
       cursor: pointer;
     }
+
     .item-card:hover {
       border-color: var(--accent);
       box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
     }
+
     .item-card-image-wrap {
       aspect-ratio: 1;
       background: var(--bg);
@@ -254,24 +264,29 @@
       align-items: center;
       justify-content: center;
     }
+
     .item-card-image {
       width: 100%;
       height: 100%;
       object-fit: contain;
     }
+
     .item-card-body {
       padding: 12px 14px;
     }
+
     .item-card-name {
       font-weight: 600;
       font-size: 0.9375rem;
       color: var(--text);
     }
+
     .item-card-id {
       font-size: 0.75rem;
       color: var(--text-muted);
       margin-top: 4px;
     }
+
     .pagination {
       display: flex;
       align-items: center;
@@ -279,6 +294,7 @@
       gap: 12px;
       margin-top: 20px;
     }
+
     .pagination button {
       padding: 8px 16px;
       font-size: 0.875rem;
@@ -290,20 +306,24 @@
       border-radius: var(--radius);
       cursor: pointer;
     }
+
     .pagination button:hover:not(:disabled) {
       background: var(--surface-hover);
       border-color: var(--accent);
     }
+
     .pagination button:disabled {
       opacity: 0.5;
       cursor: not-allowed;
     }
+
     .pagination span {
       font-size: 0.875rem;
       color: var(--text-muted);
     }
   </style>
 </head>
+
 <body>
   <div class="card">
     <header>
@@ -315,7 +335,8 @@
       <button class="btn btn-search" onclick="send()">Search</button>
       <button class="btn btn-voice" onclick="voice()" id="voiceBtn" title="Voice search">🎤</button>
     </div>
-    <p class="hint">Type your query or click the microphone to search by voice. Voice uses your browser’s online speech service and needs internet.</p>
+    <p class="hint">Type your query or click the microphone to search by voice. Voice uses your browser’s online speech
+      service and needs internet.</p>
 
     <div class="divider"></div>
 
@@ -336,26 +357,33 @@
     <div id="pagination" class="pagination" style="display: none;"></div>
   </div>
   <!-- Modal for Vishanti aggregated view -->
-  <div id="detailsModal" style="display:none; position:fixed; inset:0; background:rgba(15,20,25,0.8); backdrop-filter:blur(6px); z-index:50; align-items:center; justify-content:center;">
-    <div style="background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:var(--shadow); max-width:960px; width:100%; max-height:80vh; display:flex; flex-direction:column; overflow:hidden;">
-      <div style="display:flex; align-items:center; justify-content:space-between; padding:14px 18px; border-bottom:1px solid var(--border);">
+  <div id="detailsModal"
+    style="display:none; position:fixed; inset:0; background:rgba(15,20,25,0.8); backdrop-filter:blur(6px); z-index:50; align-items:center; justify-content:center;">
+    <div
+      style="background:var(--surface); border:1px solid var(--border); border-radius:16px; box-shadow:var(--shadow); max-width:960px; width:100%; max-height:80vh; display:flex; flex-direction:column; overflow:hidden;">
+      <div
+        style="display:flex; align-items:center; justify-content:space-between; padding:14px 18px; border-bottom:1px solid var(--border);">
         <div>
           <div id="detailsTitle" style="font-weight:600; font-size:1rem;"></div>
           <div id="detailsSubtitle" style="font-size:0.8rem; color:var(--text-muted); margin-top:2px;"></div>
         </div>
-        <button type="button" onclick="closeDetailsModal()" style="border:none; background:transparent; color:var(--text-muted); font-size:1.2rem; cursor:pointer; padding:4px 8px;">✕</button>
+        <button type="button" onclick="closeDetailsModal()"
+          style="border:none; background:transparent; color:var(--text-muted); font-size:1.2rem; cursor:pointer; padding:4px 8px;">✕</button>
       </div>
       <div style="display:flex; gap:16px; padding:16px; overflow:hidden;">
         <div style="flex:0 0 260px; display:flex; flex-direction:column; gap:12px;">
-          <div style="background:var(--bg); border-radius:var(--radius); overflow:hidden; min-height:220px; display:flex; align-items:center; justify-content:center;">
+          <div
+            style="background:var(--bg); border-radius:var(--radius); overflow:hidden; min-height:220px; display:flex; align-items:center; justify-content:center;">
             <img id="detailsImage" src="" alt="" style="width:100%; height:100%; object-fit:contain; display:none;">
-            <div id="detailsImagePlaceholder" style="font-size:0.8rem; color:var(--text-muted);">No image available</div>
+            <div id="detailsImagePlaceholder" style="font-size:0.8rem; color:var(--text-muted);">No image available
+            </div>
           </div>
         </div>
         <div style="flex:1; display:flex; flex-direction:column; overflow:hidden;">
           <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
             <label for="cityFilter" style="font-size:0.85rem; color:var(--text-muted);">Filter by city:</label>
-            <select id="cityFilter" onchange="applyCityFilter()" style="min-width:180px; padding:8px 10px; font-size:0.85rem; border-radius:var(--radius); border:1px solid var(--border); background:var(--bg); color:var(--text);">
+            <select id="cityFilter" onchange="applyCityFilter()"
+              style="min-width:180px; padding:8px 10px; font-size:0.85rem; border-radius:var(--radius); border:1px solid var(--border); background:var(--bg); color:var(--text);">
               <option value="">All cities</option>
             </select>
           </div>
@@ -378,7 +406,27 @@
     </div>
   </div>
   <script>
-    const API_BASE = "http://localhost:8090/v1/api/analytics";
+    // Dynamically set API_BASE based on environment
+    function getApiBase() {
+      const hostname = window.location.hostname;
+      const protocol = window.location.protocol;
+
+      // Environment-based API endpoints
+      const apiHosts = {
+        'dev.letsmultiply.co': 'https://dev.letsmultiply.co',
+        'stage.letsmultiply.co': 'https://stage.letsmultiply.co',
+        'letsmultiply.co': 'https://letsmultiply.co',
+        'localhost': 'http://localhost:8090'
+      };
+
+      // Match hostname to environment
+      const apiHost = apiHosts[hostname] || 'http://localhost:8090';
+
+      return `${apiHost}/v1/estimator/analytics`;
+    }
+
+    const API_BASE = getApiBase();
+    console.log('API_BASE:', API_BASE);
 
     // Load app config (including environment) from backend on init
     (async function initConfig() {
@@ -448,9 +496,9 @@
         card.innerHTML = `
           <div class="item-card-image-wrap">
             ${imgUrl
-              ? `<img class="item-card-image" src="${imgUrl.replace(/"/g, "&quot;")}" alt="${(item.name || "").replace(/"/g, "&quot;")}" loading="lazy" onerror="this.style.display='none'">`
-              : `<span class="item-card-id">No image</span>`
-            }
+            ? `<img class="item-card-image" src="${imgUrl.replace(/"/g, "&quot;")}" alt="${(item.name || "").replace(/"/g, "&quot;")}" loading="lazy" onerror="this.style.display='none'">`
+            : `<span class="item-card-id">No image</span>`
+          }
           </div>
           <div class="item-card-body">
             <div class="item-card-name">${escapeHtml(item.name || "—")}</div>
@@ -575,7 +623,7 @@
 
       // If already listening, stop
       if (voiceRecognition) {
-        try { voiceRecognition.stop(); } catch (err) {}
+        try { voiceRecognition.stop(); } catch (err) { }
         voiceRecognition = null;
         btn.textContent = "🎤";
         btn.disabled = false;
@@ -721,7 +769,7 @@
         const minP = Number(stat.minPrice ?? 0).toLocaleString("en-IN", { maximumFractionDigits: 2 });
         const maxP = Number(stat.maxPrice ?? 0).toLocaleString("en-IN", { maximumFractionDigits: 2 });
         const avgP = Number(stat.avgPrice ?? 0).toLocaleString("en-IN", { maximumFractionDigits: 2 });
-        
+
         return `<tr>
           <td style="padding:8px 10px; border-bottom:1px solid var(--border);">${area}</td>
           <td style="padding:8px 10px; border-bottom:1px solid var(--border);">${priceType}</td>
@@ -750,4 +798,5 @@
     }
   </script>
 </body>
+
 </html>

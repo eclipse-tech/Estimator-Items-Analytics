@@ -2,7 +2,7 @@
 Estimator Items Analytics API - Main Application
 
 This module serves as the main entry point for the FastAPI application.
-All routes are organized into separate modules and mounted with the v1/api/analytics prefix.
+All routes are organized into separate modules and mounted with the v1/estimator/analytics prefix.
 """
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -32,7 +32,7 @@ app.add_middleware(
 )
 
 # API version prefix
-API_PREFIX = "/v1/api/analytics"
+API_PREFIX = "/v1/estimator/analytics"
 
 # Include all routers with the API prefix
 app.include_router(items_router, prefix=API_PREFIX, tags=["Items"])
@@ -46,7 +46,7 @@ app.include_router(auth_router, prefix=API_PREFIX, tags=["Auth"])
 def root():
     """
     Root endpoint - API health check.
-    
+
     Returns:
         dict: Basic API information and status.
     """
@@ -62,7 +62,7 @@ def root():
 def health_check():
     """
     Health check endpoint for monitoring and load balancers.
-    
+
     Returns:
         dict: Health status of the API.
     """
